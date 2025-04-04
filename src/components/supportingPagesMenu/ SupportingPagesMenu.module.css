@@ -1,0 +1,89 @@
+.menuContainer {
+    background-color: rgba(231, 243, 255, 0.90);
+    padding: 6rem 2rem 2rem 2rem;
+    text-align: center;
+    width: 60vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menuIcon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+    object-fit: contain;
+}
+
+.menuLink {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.menuText {
+    display: block;
+    white-space: nowrap; /* ✅ Prevents text from wrapping */
+    text-align: center;
+    color: #8900f2;
+    font-family: "Assitant", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.menuText:hover {
+    color: #8900f2;
+}
+
+.copyright {
+    color: rgb(137, 0, 242);
+    font-family: "Assitant", sans-serif;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(137, 0, 242); /* ✅ Light transparent background */
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* ✅ Hover Effect */
+.closeButton:hover {
+    background: rgb(32, 231, 46);
+    color: #0a0223;
+}

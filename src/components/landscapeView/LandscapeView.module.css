@@ -1,0 +1,61 @@
+.rotateMessage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100svw;
+    height: 100svh;
+    background-color: rgb(10, 2, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.phone {
+    background-color: #48ff00;
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    -webkit-animation: rotate 3s ease-in-out infinite alternate;
+    animation: rotate 3s ease-in-out infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    color: #0a0223;
+    font-family: "Sono", sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-90deg)
+    }
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-90deg)
+    }
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+@media (orientation: landscape) {
+    .phone, .message {
+        display: block;
+    }
+}

@@ -1,0 +1,51 @@
+.scrollContainer {
+    position: relative;
+    top: 3.5rem;
+    left: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    background: rgba(232, 225, 225, 0);
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+.scrollMenu {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    gap: 1.2rem;
+}
+
+.sectionItem {
+    flex: 0 0 175px;
+    height: 6rem;
+    padding: 1em;
+    cursor: pointer;
+    background: rgba(232, 225, 225, 0.45);
+    border-radius: 0.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #0a0223;
+    text-align: left;
+}
+
+.sectionItem:hover {
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sectionItem.active {
+    color: #ffffff;
+
+    background: rgba(242, 0, 137, 0.8);
+}
+
+.sectionName {
+    font-family: 'Barrio', sans-serif;
+    font-size: 1.8rem;
+}
+
+.scrollSpacer {
+    flex: 0 0 0.05rem;
+    content: "";
+}

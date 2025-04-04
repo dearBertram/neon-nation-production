@@ -1,0 +1,1397 @@
+{
+   "poet":{
+      "uid":"poet-001",
+      "name":"Neon Poet",
+      "birthYear":1975,
+      "deathYear":"Living",
+      "nationality":"British",
+      "bio":"Reflections through the middle ages...",
+      "collections":[
+         {
+            "uid":"collection-001",
+            "name":"Vapes_ Vicissitude",
+            "subHeading":"Are you paying attention",
+            "description":"Mythical beasts included",
+            "publishedYear":2025,
+            "genre":"Observation",
+            "sections":[
+               {
+                  "uid":"collection-001-section-001",
+                  "name":"Part 1",
+                  "description":"... wake",
+                  "poems":[
+                     {
+                        "uid":"poem-001-001",
+                        "title":"01_ Persist",
+                        "theme":"Observation",
+                        "lines":[
+                           "Ah........you might think this is gonna be wasteful.",
+                           "It may well is",
+                           "It may take some small investment",
+                           "Of time that is.",
+                           "But for the sake of just some minutes",
+                           "And maybe getting the gist…",
+                           "Please persist"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "hope",
+                              "adversity",
+                              "freedom"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-002",
+                        "title":"02_ Not a clock",
+                        "theme":"Over exposure",
+                        "lines":[
+                           "Tik toc tick toc",
+                           "Not the clock",
+                           "Tik toc tick toc",
+                           "Gotta stop",
+                           "Can’t stop",
+                           "Won’t stop",
+                           "Stimulation on the drop",
+                           "Flick flick flick",
+                           "What’s that hack",
+                           "Tik toc tick toc",
+                           "Steak Tanghulu",
+                           "Crispy crunch",
+                           "Fill the void",
+                           "Music non stop",
+                           "Resurrected forgotten",
+                           "Track toc tick tock",
+                           "It’s all good",
+                           "Take a look",
+                           "Stimulation non stop",
+                           "Bing bang",
+                           "Famous man",
+                           "Singing loud",
+                           "Cover sounds",
+                           "Crunch to cringe",
+                           "What’s the inference",
+                           "Influence",
+                           "Tik toc tick toc",
+                           "Make it",
+                           "Break it",
+                           "Forgotten",
+                           "Gone"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Swipe",
+                              "See",
+                              "Select"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-003",
+                        "title":"03_ FISH HEADS",
+                        "theme":"Placeholder Theme",
+                        "lines":[
+                           "Here, there, over wear;",
+                           "Bare all, where’s all",
+                           "Take more time to share all",
+                           "Than talk to those around.",
+                           "Give heed to the waiters frown",
+                           "Wonder at the lights",
+                           "Shiny bright.",
+                           "Slight pause… longer than yours",
+                           "Move on to groove on",
+                           "Keep them enthralled.",
+                           "A large net to trawl",
+                           "Fish heads in the bin.",
+                           "Stone suit, heavy boots",
+                           "Fiscal in drag",
+                           "Heels high, mighty win",
+                           "All the time styles thin.",
+                           "Live photo masking grin",
+                           "Just tap open, see what’s in",
+                           "Fuselage in garage",
+                           "Picture wins a thousand hearts.",
+                           "Hard to know where to start",
+                           "LLM takes your part.",
+                           "No matter, it stinks",
+                           "Fish heads in the bin",
+                           "You want what iirve got",
+                           "If all the same STOP…",
+                           "Switch off, restart",
+                           "Power on, power off",
+                           "Buff the convertible",
+                           "Unzip, strip",
+                           "Whatever you do, make it quick.",
+                           "Attention span slips",
+                           "Long term thinking trips-",
+                           "Up over a tongue",
+                           "As it lunges forward to taste what’s in",
+                           "Fish heads in the bin",
+                           "When said, when done",
+                           "When race and river run",
+                           "Sit, stiff backed facing forward,",
+                           "Steadfast built to last",
+                           "You iconoclast all red lights past",
+                           "As trains on other tracks",
+                           "End as buffers smack",
+                           "A million snaps last -",
+                           "One turns out the lights",
+                           "Brabantia or plastic bag",
+                           "Everyone reels back from,",
+                           "Fish heads in the bin",
+                           "Always stink"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "placeholder",
+                              "poem",
+                              "section"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-004",
+                        "title":"04_ Portrait two",
+                        "theme":"A person",
+                        "lines":[
+                           "I don’t know you",
+                           "All I can guess",
+                           "Made up by clues",
+                           "My assumptions",
+                           "Overlaid, on the bits",
+                           "You choose to share",
+                           "Clothes, hair, book",
+                           "You’re a type",
+                           "Tanned tights",
+                           "Loafers tight",
+                           "Make up sharp",
+                           "Blended, lines removed",
+                           "Not quite right",
+                           "Rushed out the door",
+                           "Late night bites",
+                           "Determined to fight",
+                           "Eyes fired up",
+                           "Pencil flick",
+                           "Extenuated lines",
+                           "Routine followed —",
+                           "Most of the time",
+                           "Your angular self",
+                           "Held up for the shelf",
+                           "Posted, ghosted",
+                           "Tears to yourself"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Types",
+                              "Belong",
+                              "Life"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-005",
+                        "title":"05_ a low_bar",
+                        "theme":"Domestic violence and coercive control",
+                        "lines":[
+                           "Nail bar, nail bar.",
+                           "A Rose at Dawn, emotions sit torn.",
+                           "Look and stare, what world out there?",
+                           "A sigh, as the tear runs dry.",
+                           "The scream of a child fades bye … bye.",
+                           "What colour, can you buy?",
+                           "All the colours that drain, fade.",
+                           "As a beacon, speaking.",
+                           "Calling them in, stop walking, no talking",
+                           "This life, virtual, a binary bubble.",
+                           "Just, desperate for a cuddle.",
+                           "From Nah Trang, via Yunnan.",
+                           "By car, foot, caravan.",
+                           "Two stations sit vacant,",
+                           "Both outside vaping.",
+                           "Occasional tokers, !traditional smokers,",
+                           "Breathing in all their fears.",
+                           "Drop in and say so,",
+                           "Then leave, with a new show.",
+                           "Nail bar, nail bar.",
+                           "Could buy more.",
+                           "Wine bar, wine bar.",
+                           "I’m talking to you, drink through.",
+                           "A long week, forget what’s new.",
+                           "A place for a few, eyes wonder",
+                           "Beyond two, my nails are new.",
+                           "Eyes on me, looking irate.",
+                           "A desperate state unwinding minds.",
+                           "Man with black flash, so fake fash.", 
+                           "Sits striking against his white face.",
+                           "Exuding confidence, outsized self sense.",
+                           "That no one is well placed to deny.",
+                           "A changing sense, spider crawling.", 
+                           "A face ready for brawling, sit recoiling.",
+                           "Changed in blinking of eyes, cries.",
+                           "A pint of indifference, nested violence.",
+                           "Outside vaping, waiting.",
+                           "Anticipating different outcomes, not more",
+                           "The same place each week, bleak.",
+                           "Streets winding, black night binding.",
+                           "Wine bar, wine bar.",
+                           "Lights out, bye.",
+                           "Iron bar, iron bar.",
+                           "Hard to touch, diffuse or loose.",
+                           "Beating at the edge, within an inch of their wife.",
+                           "Nails cracked on the floor, colour run.",
+                           "Wine bars hope, lost once more.",
+                           "The chips away, away, away.",
+                           "What’s left, shame?",
+                           "Looming large, a fiery scar.",
+                           "A broken vase, crushed petal.",
+                           "Scattered, battered once more.",
+                           "In pools of blood, stained flaw.",
+                           "Apple and Raspberry, sour",
+                           "Exhale flower, another scowl.",
+                           "Silence now, fill the gap.",
+                           "Stare from the eyes, want to go back.",
+                           "Slope off, not scurry like a rat.",
+                           "Who’s fault was all that.",
+                           "Alone at last, gasp, ask.",
+                           "For help, a chat, whatsupp.",
+                           "Iron bar, iron bar.",
+                           "Please say Hi.",
+                           "Soap bar, soap bar.",
+                           "Is it over, the hangover, cold not sober.",
+                           "Crouched on the bathroom floor.",
+                           "Tiles old, smooth.",
+                           "Supporting the cracks, broken backs.",
+                           "The straw, it’s final.",
+                           "It ends, with survival.",
+                           "Mine not yours, that’s for sure.",
+                           "Your path is set, I’m more.",
+                           "The water it cleans, gleams.",
+                           "No more, once mores.",
+                           "New meaning for me, sure?",
+                           "Sure!",
+                           "A Rose at Dawn, emotions reborn.",
+                           "Stains washed away, power in the shower.",
+                           "Time has come for my hour, won’t cower.",
+                           "With screams and dreams, lathered fire.",
+                           "It slips down my skin, exfoliated.",
+                           "Refreshed in my frame, liberated.",
+                           "Soap bar, soap bar",
+                           "Good bye."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "placeholder",
+                              "poem",
+                              "section"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-006",
+                        "title":"06_ Self importing",
+                        "theme":"Not going out",
+                        "lines":[
+                           "What did he say?…",
+                           "He’s not coming out",
+                           "He’s staying in to read, a book",
+                           "To seed an idea, to change his look.",
+                           "What did he say?…",
+                           "He’s not coming out",
+                           "He’s staying in to watch TV",
+                           "Right wing news, cup of tea.",
+                           "—",
+                           "What did she say?…",
+                           "She’s coming out",
+                           "She’s heading out to have a look",
+                           "To fire imagination, maybe fuck.",
+                           "What did she say?…",
+                           "She’s coming out",
+                           "She’s got tickets, the film of a book",
+                           "Not that book, the one from book club.",
+                           "—",
+                           "What did they say?…",
+                           "They’ve come unstuck",
+                           "Took a trip, slipped, got stuck",
+                           "Now they’re aimless, hoping for luck.",
+                           "What did they say?…",
+                           "They’ve come unstuck",
+                           "The car needs tyres and a stamp in its book",
+                           "Not that book, not made from wood.",
+                           "—",
+                           "What did you say?…",
+                           "You talking to me",
+                           "You’re staying in, to breed, continue the feed",
+                           "Divide the nation into need and greed.",
+                           "What did you say? …",
+                           "You talking to me",
+                           "Casting a sly glance, a romance",
+                           "Scrolling, looking endlessly for a second chance",
+                           "—",
+                           "What did the other half say?",
+                           "They feel irrelevant",
+                           "They’re shouting out, not content with quiet resentment",
+                           "They need to share all the anger they’re fed.",
+                           "What did the other half say?",
+                           "They feel irrelevant",
+                           "My life’s the same, just without the shed",
+                           "He, she, they look on, the heating won’t come on."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Explicit",
+                              "Decisions",
+                              "Divisions"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-007",
+                        "title":"07_ Connected",
+                        "theme":"Placeholder Theme",
+                        "lines":[
+                           "I’m connected",
+                           "I’m expecting",
+                           "To hear from you",
+                           "A message, a pic",
+                           "A pig with a quiff.",
+                           "A long tale",
+                           "Of travails",
+                           "A day best forgotten",
+                           "A love forlorn,",
+                           "But nothing.",
+                           "I’m checking",
+                           "Pulling hard",
+                           "Refreshing,",
+                           "But nothing.",
+                           "I’ll check my connection",
+                           "I’m expecting",
+                           "To hear from you,",
+                           "But nothing.",
+                           "Have you forgotten",
+                           "About me?",
+                           "Our stimulation bond",
+                           "Our commitment",
+                           "To converse",
+                           "Through digital bursts.",
+                           "I guess",
+                           "You’re busy",
+                           "Creating wealth",
+                           "Or flicking",
+                           "Someone else.",
+                           "Benefiting, better fitting.",
+                           "Ahh, you’re back",
+                           "Battery just flat.",
+                           "My immediate sense",
+                           "Made no sense.",
+                           "You’re back",
+                           "Anxiety smacks."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Communication",
+                              "Isolsation",
+                              "Anxiety"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-001-008",
+                        "title":"08_ On the market",
+                        "theme":"Searching",
+                        "lines":[
+                           "It’s a transactional thing",
+                           "Making the algorithm sing.",
+                           "Along for the ride?",
+                           "Through hotel rooms and fetish blooms",
+                           "Through all the things that make you tick.",
+                           "From sticks to licks, flicks!",
+                           "It’s a finite thing",
+                           "Match formed for them — [o,i,u]",
+                           "Wine, you choose the colour.",
+                           "Hours whiled by a fire, are you a liar?",
+                           "Ours is the one to hit",
+                           "The spot is this, sealed with a kiss.",
+                           "It’s an empowering thing",
+                           "To chat to him, to start,",
+                           "With chance of a win",
+                           "Across split timelines, different lives.",
+                           "A cross, a chain, religious claims.",
+                           "You can’t lay claim to my burgeoning desire.",
+                           "It’s a primal thing",
+                           "To meet, to luck out",
+                           "Like what you see, so follow through.",
+                           "To go the way of all the ways.",
+                           "To please yourself, tease yourselves.",
+                           "Update with a tap, thanks for that.",
+                           "It’s a longing thing",
+                           "Need to rest, find the best",
+                           "For me to spend my time undressed.",
+                           "A test passed, moments lasting",
+                           "Attested characteristics everlasting …",
+                           "Now it can wait, no need to update.",
+                           "It’s all our things",
+                           "To want a pronoun to co-exist with.",
+                           "How we get there is process",
+                           "Hottest, fastest, smartest :",
+                           "Hostess posting flourishes boasting",
+                           "Words and actions in continuous motion.",
+                           "It’s a luxury thing",
+                           "To have the time to search",
+                           "Not distracted by essential hurt;",
+                           "The need to feed, to drink",
+                           "Themes far removed from vanities pull.",
+                           "No connection? Begged attention.",
+                           "It’s a legacy thing",
+                           "To procreate with her or him",
+                           "Mark a tally, chalkboard Sally.",
+                           "To listen hard for every ping",
+                           "To track the cycle, recycle hard",
+                           "Through vicarious bo(u)nds of blood to tissue.",
+                           "It’s a deprecated thing",
+                           "To find the one through chance and heart.",
+                           "Wander lustfully through parks, bars :",
+                           "Late night rituals, eye caught by chancers dance.",
+                           "Don’t rely on a lingering glance",
+                           "Track it, log it, analyse, flog it."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Searching",
+                              "Finding",
+                              "Lost"
+                           ]
+                        }
+                     }
+                  ]
+               },
+               {
+                  "uid":"collection-001-section-002",
+                  "name":"Part 2",
+                  "description":"... walk",
+                  "poems":[
+                     {
+                        "uid":"poem-002-001",
+                        "title":"01_ Vapour",
+                        "theme":"Morning",
+                        "lines":[
+                           "To wake again,",
+                           "The night defeated.",
+                           "Sleep repleted, renewed.",
+                           "So why the thoughts.",
+                           "The doubts, repeated,",
+                           "Rattled and battered, scorn.",
+                           "What hope to defeat them,",
+                           "To shackle, beat them.",
+                           "Lay them to waste.",
+                           "Never repeat them.",
+                           "No hope, it seems,",
+                           "The groove’s well worn.",
+                           "Between duvets and dreams,",
+                           "Thoughts of mortality.",
+                           "A venomous spike in mentality.",
+                           "Profanity ingested, injected.",
+                           "To flow, hydro illogical,",
+                           "In balance, but slow.",
+                           "The reminders they come,",
+                           "The glory of sun.",
+                           "Casting light on the shadows.",
+                           "Bringing smiles as they show.",
+                           "The beauty of life,",
+                           "All that it holds.",
+                           "But lurking below,",
+                           "As the moments they flow.",
+                           "Over notions, stored cold.",
+                           "The fragments they break.",
+                           "Get carried away,",
+                           "A solution, in name alone.",
+                           "The night it freezes,",
+                           "Contains the malfeasance.",
+                           "Come the thawing of dawn.",
+                           "A stretch and a yawn.",
+                           "Brings back the non sense,",
+                           "That life lacks, sufficient control."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "placeholder",
+                              "poem",
+                              "section"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-002",
+                        "title":"02_ Portrait four",
+                        "theme":"More people",
+                        "lines":[
+                           "Made of enamour",
+                           "Anime looks",
+                           "Sharps cheeks, deep eyes",
+                           "Distantful resting face",
+                           "Made to look like pen and ink —",
+                           "Perfect aesthetic",
+                           "Attitude stink",
+                           "At least to those you don’t know",
+                           "Face sharp",
+                           "Angled harsh",
+                           "To deflect from engagement —",
+                           "Feed locked on perpetual amazement",
+                           "You’re waiting",
+                           "Something is building",
+                           "Anticipation gracing",
+                           "Your face as it scrolls",
+                           "Through moments still to be told —",
+                           "What happened last night?",
+                           "Why was there a fight",
+                           "You slept with no clue",
+                           "That the world was evolving around you",
+                           "Now the corner you grace",
+                           "Is a last stand in place",
+                           "Time to face the implications."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Focus",
+                              "Purpose",
+                              "Driven"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-003",
+                        "title":"03_ Working Class Biscuits",
+                        "theme":"Society",
+                        "lines":[
+                           "Patient’s sick",
+                           "Doctors at Pret",
+                           "Carriage constantly cooled",
+                           "Priority",
+                           "Wrong",
+                           "Last crumb",
+                           "Straw it breaks",
+                           "Back of the bourbon",
+                           "Custards",
+                           "Fake",
+                           "Whole nation",
+                           "Final one takes",
+                           "Barrel emptied at pace",
+                           "Gary",
+                           "Balding",
+                           "Short state",
+                           "Coronation is fake",
+                           "Working tables not straight",
+                           "Sponge",
+                           "Fingers.",
+                           "Present’s fate",
+                           "Destiny on plates",
+                           "Biscuits masking the face",
+                           "Memories",
+                           "Foam",
+                           "Tone down",
+                           "Tears they clown",
+                           "Round as balanced farce",
+                           "Moments",
+                           "Past"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Inequality",
+                              "Resplendent",
+                              "Perpetual"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-004",
+                        "title":"04_ Constrained",
+                        "theme":"Social grace",
+                        "lines":[
+                           "Constrained by the wail, of a waking mind",
+                           "Hands bound, shackled to realities well.",
+                           "Your perception; taught, bought",
+                           "Your freedom fraught —",
+                           "Images flash with contorted whispers",
+                           "Brought to you in packages on silver platters.",
+                           "The depth of perception a plane view",
+                           "Your hopes created —",
+                           "A state of mind fragmented from million nth pixels.",
+                           "Filtered for fun, pouting perfect",
+                           "Impressions left for limitless expression.",
+                           "Your stream, dreamed",
+                           "A generated wave, processing age.",
+                           "Computational complexity generation stage",
+                           "Reverb, replay humanly rendered.",
+                           "Your light recorded…",
+                           "The darkness controlled at the spin of a finger",
+                           "The light refracts, no time to linger.",
+                           "Echo chamber, loud hails danger — beware the stranger.",
+                           "Your time, resplendent",
+                           "In your digital impression; rapid, reflected",
+                           "Circles rejected, emotions (dis)respected.",
+                           "Sit immersed, ears ring to amplified versus",
+                           "Your time, spent.",
+                           "The self interested perpetuate engagement —",
+                           "Snake oil slithers down gullible gullets;",
+                           "As likes, that spike through basking light.",
+                           "Nothing short of sponsored fright",
+                           "You're here, fight!",
+                           "WOW"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Success",
+                              "Regress",
+                              "Shame"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-005",
+                        "title":"05_ Portrait six",
+                        "theme":"Transit",
+                        "lines":[
+                           "Engagement ring",
+                           "Three diamonds",
+                           "Two small, one big",
+                           "Set in a golden case",
+                           "Matching trim",
+                           "Jackets edge.",
+                           "Suit tight on the legs",
+                           "Almost touching the shoes",
+                           "Heeled brogue, black lace",
+                           "Music leaking from the air pod",
+                           "Impossible to determine taste",
+                           "At play, tin tin tattles.",
+                           "Disguising the base",
+                           "One phone for work",
+                           "One for space",
+                           "A barcode to remind",
+                           "Delimited place",
+                           "The hand strokes that space.",
+                           "Remembers a face",
+                           "A time, a place",
+                           "Staring beyond the window",
+                           "All it encases",
+                           "Hair brown, straight",
+                           "Few split ends.",
+                           "One side tucked safely in place",
+                           "Behind ear, silver hoop",
+                           "The other left loose",
+                           "Sloped carefully, hiding the face",
+                           "In case of contact.",
+                           "Unwanted requests",
+                           "Only so much staring you can do",
+                           "Phone up, few flicks",
+                           "Then through to competitions",
+                           "Holiday bookings",
+                           "Little bit of chat.",
+                           "Ffs train stuck like glue",
+                           "Can’t get past here, to you",
+                           "Defeated, deflated",
+                           "Hand props up face",
+                           "What can you do?",
+                           "Switch from space.",
+                           "To workplace",
+                           "Anxiety chases as you sit in place",
+                           "Won’t make the meeting",
+                           "No worries, we’ll cover you",
+                           "That doesn’t help",
+                           "The suit, the shoes",
+                           "Shellac nails all say",
+                           "You need it to be you."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "placeholder",
+                              "poem",
+                              "section"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-006",
+                        "title":"06_ Here and There",
+                        "theme":"Careful what you wish for",
+                        "lines":[
+                           "There it was, the words on spot.",
+                           "There it was, the memory of how good it was.",
+                           "There it was, the nation in flare.",
+                           "There it was, the kings not there.",
+                           "There it was, detached from it all, 54, then more.",
+                           "Here it is, small but bloated, only just floated.",
+                           "Here it is, the truth of it all, an island once more.",
+                           "Here it is, the same inequality, driven sovereignty.",
+                           "Here it is, the mobile addiction, gambling with affliction.",
+                           "Here it is, attached arms for all, 6, then more."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Sovereignty",
+                              "Personal objectives",
+                              "Tainted views"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-007",
+                        "title":"07_ Offline troll",
+                        "theme":"Quiet disdain",
+                        "lines":[
+                           "I’m basically an offline troll",
+                           "Walking round popping off",
+                           "Vitriol",
+                           "Slices of analogue bile",
+                           "One slice bitter",
+                           "Once slice sweet",
+                           "The treasures in between, bleat",
+                           "Expressed on analogous streets",
+                           "Turn good intentions to disgrace",
+                           "Just like the online space",
+                           "But looking deeper than a skin feature",
+                           "Can often lead to disappointment",
+                           "All the views masking the news",
+                           "Alternative mews",
+                           "In between lives a GB surprise",
+                           "But all the things I plan to hate",
+                           "Are just a state before after eight",
+                           "Mint condition, smooth intention",
+                           "For any depth that you thought was there",
+                           "Is simply lost in well groomed hair",
+                           "A line of brow painted fair",
+                           "Your glitter couldn’t look shitter",
+                           "But my position is no better",
+                           "I look for all there is to grate",
+                           "Here, should be safe",
+                           "Focus on it as a meaningful state",
+                           "Yet, it’s no place",
+                           "Why share my glare",
+                           "When we could all sit",
+                           "Reflect on a kiss"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Hate",
+                              "Hidden",
+                              "Felt"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-002-008",
+                        "title":"08_ Neon",
+                        "theme":"Self belief",
+                        "lines":[
+                           "Listen to all your thoughts",
+                           "Let them flow",
+                           "Ride the wave",
+                           "Don’t let go.",
+                           "Listen to them all",
+                           "For those ignored",
+                           "Will bite",
+                           "Snarl all day",
+                           "Listen to your thoughts.",
+                           "There’s a womble",
+                           "Smirking emoji combo",
+                           "If the only thing we learn",
+                           "Is that cathedrals they fall",
+                           "Make good use…"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Common",
+                              "Ground",
+                              "Reflect"
+                           ]
+                        }
+                     }
+                  ]
+               },
+               {
+                  "uid":"collection-001-section-003",
+                  "name":"Part 3",
+                  "description":"... watch",
+                  "poems":[
+                     {
+                        "uid":"poem-003-001",
+                        "title":"01_ Another History",
+                        "theme":"Empire",
+                        "lines":[
+                           "On the corner of Fisher Street,",
+                           "Where wealth and poverty meet",
+                           "Sits Southampton Row, all old and broke.",
+                           "Down from there sits a real slick of a nick",
+                           "Piss drenched warm air the elixir stinks.",
+                           "Up the way just from there is the den;",
+                           "Collecting, directing, latter day careless inspecting",
+                           "Scattering themselves for cultural sin.",
+                           "The trophies brought back as a tourist win.",
+                           "A great building of state covered in paint",
+                           "Someone scrawling their grievous complaint",
+                           "Itself a relic of something foregone.",
+                           "As scrawl on brick looks to the north for reassuring nods",
+                           "Both flounder, caught in a dream of countries long gone."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Empire",
+                              "Theft",
+                              "Cultural identity"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-002",
+                        "title":"02_ Hustle",
+                        "theme":"Change",
+                        "lines":[
+                           "Everybody’s on the hustle",
+                           "The crisp suit, the shuffle.",
+                           "Cutting their way through the urban bustle",
+                           "Top buttons pinching, containing",
+                           "Refraining from showing",
+                           "Any weakness that",
+                           "Might inspire change."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Striving",
+                              "Surviving",
+                              "Money"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-003",
+                        "title":"03_ Portrait thirteen",
+                        "theme":"Ultimate sacrifice",
+                        "lines":[
+                           "I want a go, I’ve got nothing left;",
+                           "Just a cider, a stone bench, a lion on my chest.",
+                           "I fought my war now my mind needs rest",
+                           "It aches every day … I can see no way.",
+                           "No drill bit or quick fix to everyday problems",
+                           "This is not the middle aisle",
+                           "Just a fainted, painted persistently restated smile.",
+                           "Shells before my eyes, those ones home, these to battle.",
+                           "Youth destroyed for old men's prattle —",
+                           "Is there a chance for some assistance?"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Services",
+                              "Trauma",
+                              "Relief"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-004",
+                        "title":"04_ A Street Corner named Desire",
+                        "theme":"Leisure time",
+                        "lines":[
+                           "Neck, brace for a jolt.",
+                           "A tumultuous shock, halt …",
+                           "The end of the line from north/south divided",
+                           "Brought together for a big night out.",
+                           "The ice man cometh with smoke filled glare",
+                           "Keeping the chill on Aperol chairs.",
+                           "The floating lines of villainous intent",
+                           "Lift lives — like wires, on poles with crests.",
+                           "Sit back relax, enjoy the chat",
+                           "This bench, might be where everything is at.",
+                           "The lavender sings a sweet teenage thud",
+                           "A scent in a vape, her?",
+                           "All the types of mixed use, blessed",
+                           "A restoration for commercial use",
+                           "A chance to unwind from",
+                           "The ad spend crawling across once derelict floors.",
+                           "Feeling a little out of their places",
+                           "The prettiest things stand on corners and sing.",
+                           "A real taste of London; bench, with a bourbon",
+                           "Not boutiques, so unique you’re unsure how to use them.",
+                           "A few regular faces sit smiling",
+                           "Hoping the upload bring likes from strangers",
+                           "The scale of ambition",
+                           "Clear to see, blind to me.",
+                           "Generational divides, weights outside",
+                           "Pull cords not bar brawls",
+                           "Walk dogs that hog the line between fine",
+                           "And rages of belongings pride.",
+                           "In amongst it all an oasis of calm",
+                           "All identical yet exhibiting a difference",
+                           "A sense of indifference to all that exists",
+                           "Beyond benches dotted to allow observations of existence."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "City",
+                              "Streets",
+                              "Life"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-005",
+                        "title":"05_ Always broken",
+                        "theme":"Empire",
+                        "lines":[
+                           "They're back, with answers to all of this, all of that.",
+                           "Emerging with wigs, pinstripes double breasted… in fashion again, de rigueur.",
+                           "Things can't be fixed, not today it's gonna take time, more time than we've got",
+                           "More cash than we’re all willing to put in the pot.",
+                           "It’s gonna take a lot",
+                           "Of out boxed thinking, strategic shots in the arm for you lot.",
+                           "You can’t say that, we’re on a path.",
+                           "A yellow brick road of promises to get back",
+                           "To where we were at, when everyone worked, walked home, sat.",
+                           "Together at the end of the day for a chat",
+                           "Not a quick dip into self help groups",
+                           "With substituent affects all six members sat in rings.",
+                           "Everybody waving hands.",
+                           "Come with us we’re moving to Mars we’ll pack our electric cars",
+                           "In rocket ships made from non-metallic strips — torn from liberal hides.",
+                           "As we sit in the cock pit our lives in hands of shady figures.",
+                           "With laptop screens beaming for hours, numbers moving, stocks swooning.",
+                           "We're gonna be there.",
+                           "We're gonna be the best.",
+                           "We're gonna make it there.",
+                           "We’re gonna make it great.",
+                           "Whatever it is.",
+                           "Just wait, just wait,",
+                           "It’s coming any day, so loud, so proud,",
+                           "Doing just great.",
+                           "The only real option is for you to let me stay.",
+                           "It’s OK, lets say 51% say yay — stay",
+                           "You can fight, fight for us another day.",
+                           "Then yes, that’s OK",
+                           "There’s nothing more to say."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Fantasy",
+                              "Nationalism",
+                              "Fear"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-006",
+                        "title":"06_ Personal Assistance",
+                        "theme":"Euthanasia",
+                        "lines":[
+                           "What’s your problem?",
+                           "No matter what it is I’m sure there’s a fix",
+                           "We can find a way — sit here, sign it away.",
+                           "It’s more your money than your life",
+                           "The tick box underscores that.",
+                           "A checked balance before the season finale.",
+                           "Do you get to play the game, assisted this way?",
+                           "To skip past horrors unknown at the back",
+                           "Towards your nagging sense that we’ve opened the door to —",
+                           "test …",
+                           "after",
+                           "test …",
+                           "after",
+                           "test …",
+                           "Assist me as I express my wish",
+                           "Even the Sycamore left a gap",
+                           "Once filled, now blank.",
+                           "The state won’t afford to keep you alive, so your state persists",
+                           "In its claim of responsible redress through adequate legal tests.",
+                           "Just make sure the paperwork is signed",
+                           "Otherwise blame.",
+                           "What about tomorrow or just another day?",
+                           "No —",
+                           "This is your moment no matter what they say",
+                           "You’re the one playing for your game of life",
+                           "Today —",
+                           "Is the tragedy necessary to release the pressure, affording everyone",
+                           "A peaceful demise?"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Decisions",
+                              "Freedom",
+                              "Impact"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-007",
+                        "title":"07_ Promenade",
+                        "theme":"Change",
+                        "lines":[
+                           "A promenade by any name, the frozen wind won’t change the range Of surprises on offer, moments shelved Waiting ………… hoping for footfall again. Chewing gum scattered, stuck to the floor White marks of thoughtless spitting What was the impact on Margaret? Sitting, there for years through all the generations Watching as love lost, left Right glances at a young woman's chest Hands held, sentiment expressed Through fried food wrapped in paper then paper No news is good news Imagine the joy of moments expressed down the promenades Cracked concrete stress The sign says come in we’re open, with a small unwritten caveat, if you are It’s hard to be welcome with a stench of fat, cross the door matt, dirty But the coffee made sure, for sure, has been warming for as long as Margaret’s thoughts Open for what, for who It’s true, she feels she hasn't a clue  What she once knew has wandered long to promenade new You? I’ve sat, watched as shops fell flat, arcades flashed then crashed Kebab wrappers flew past frozen puddles all the while looking out to others Across groyne slipped down revetments held back by seaside tat The seaview you have to give back as the plaster needs to be repaired from all its cracks The window draught A final thought at the bench as bought and Margaret slips to another walk I’d be laughing myself, except it’s not funny."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Seaside",
+                              "Seasons",
+                              "Life"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-003-008",
+                        "title":"08_ Space",
+                        "theme":"Placeholder Theme",
+                        "lines":[
+                           "This land has space for everyone",
+                           "But it’s protected by those prone to including none —",
+                           "Who see no hope in homes for all;",
+                           "Exclusions gone, long hop, deep drop.",
+                           "Forgot that drowning children’s screams rip through dreams",
+                           "Feeling scarcities grasp round their mothers shawl.",
+                           "One nation, individual consternation.",
+                           "With fields so full of emptiness",
+                           "A tax to break the grain mountain, strain mountain",
+                           "Fountain pen to sign it away, sorry son …",
+                           "Daughter, you'll have to move away.",
+                           "Frustration rumbling through rolling SFTs",
+                           "Down deaf eared streets towards the crumbling seats",
+                           "Why should I contribute…",
+                           "It can’t be.",
+                           "Maybe it could be … that as we plant the seed",
+                           "It’s everyone we feed, could use the spaces",
+                           "Plug the gaps left shallow by angers throng",
+                           "With wire barbed but flat, squashed plank that",
+                           "Contributes to support those forced to live",
+                           "In between."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Protectionism",
+                              "Persecution",
+                              "Protest"
+                           ]
+                        }
+                     }
+                  ]
+               },
+               {
+                  "uid":"collection-001-section-004",
+                  "name":"Part 4",
+                  "description":"... wander",
+                  "poems":[
+                     {
+                        "uid":"poem-004-001",
+                        "title":"01_ Familiar anxiety",
+                        "theme":"Domesticity",
+                        "lines":[
+                           "The cars stuck, again!",
+                           "Hit another one, didn’t look.",
+                           "Gotta walk.",
+                           "All sit still",
+                           "Stand if you will.",
+                           "The train is leaving, thrill —",
+                           "Sideways look",
+                           "Out of luck?",
+                           "The smiling faces up and down the escalators",
+                           "Floating by unfamiliar faces.",
+                           "The rolling trains in concrete drains",
+                           "Filling up the sprawling veins.",
+                           "Conversations about stations,",
+                           "Which way to elation?",
+                           "Angry eyes, glance as you walk by,",
+                           "Talking trades and feinted praise.",
+                           "Smoked salmon, cream cheese.",
+                           "Past 9, someone’s easy to please.",
+                           "What’s appropriate about that?"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Transit",
+                              "Belonging",
+                              "Self awarness"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-002",
+                        "title":"02_ Excuse me",
+                        "theme":"Desperation",
+                        "lines":[
+                           "“",
+                           "Excuse me,",
+                           "Excuse me?",
+                           "Sorry…",
+                           "I’m trying to save",
+                           "Some money — for a hostel",
+                           "I’m pregnant",
+                           "And homeless.",
+                           "”",
+                           "Ignored!",
+                           "71 still on the door…",
+                           "Not dripping in",
+                           "Heroin anymore.",
+                           "Gentriefied, carbon particles",
+                           "Filtered the neighbourhoods.",
+                           "Cycles fly by",
+                           "Scarves waving in the wind",
+                           "Gowns drip in the recitals ring.",
+                           "Battering conversations",
+                           "About slavery denial",
+                           "Riding fast on the",
+                           "Only Georgian in town."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Homelesness",
+                              "Ignorance",
+                              "Circumstances"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-003",
+                        "title":"03_ Tragedy",
+                        "theme":"Conflict",
+                        "lines":[
+                           "It’s always been",
+                           "Playing out through different scenes.",
+                           "With sides selected and fear injected",
+                           "The images on repeat, across history beat.",
+                           "Until the images stop, too mean.",
+                           "Those tragic moments that sweep you away",
+                           "In between meals discounted to please",
+                           "Were set in stone in someone else's day",
+                           "For you, memory drifts away —",
+                           "Tomorrow they’ll build again, again",
+                           "They’ll stay even as self interested monsters rage",
+                           "That they should be displaced.",
+                           "An inconvenient truth",
+                           "Ancestral rights.",
+                           "Ignore the consequences crack on with territorial fights",
+                           "Not magnified, forget to personify…"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Innocence",
+                              "indifference",
+                              "Suffering"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-004",
+                        "title":"04_ Portrait five",
+                        "theme":"Overwhelmed",
+                        "lines":[
+                           "Leaving the house was just like the other day",
+                           "Except the letter box fell off and got in my way —",
+                           "The flap that is, the bit that keeps the draft at bay",
+                           "It fell off and got in my way.",
+                           "I squeezed through the door like any other day",
+                           "Past cracked diamond pattern tiles surface mounted gas meter box",
+                           "Readings without a knock",
+                           "Dirty with grime and snot, from that rotten lot.",
+                           "Who is responsible for my letter box flop",
+                           "It’s hard to keep on top, of things on such a busy street",
+                           "Spending most of the time over exposed to sensory creaks…",
+                           "But to the street I must take my feet.",
+                           "In toe capped boots, workwear clique",
+                           "Hard hat strapped to my pack, back to it",
+                           "A scowl is all I can manage as I look at my feet",
+                           "Not sure what order I’ll need to keep.",
+                           "But the thoughts of the letter box on the floor",
+                           "The bit that keeps the draft a bay",
+                           "Mind caught in a blur of reference static",
+                           "Will fill my thoughts, a tune playing all day."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Order",
+                              "Attention",
+                              "Responsibility"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-005",
+                        "title":"05_ Adventurers ",
+                        "theme":"Repression",
+                        "lines":[
+                           "The toilets blocked",
+                           "Colonial shit —",
+                           "I dropped it in",
+                           "To make you fit —",
+                           "I’m sorry",
+                           "But not",
+                           "For all your toiling —",
+                           "Just fore(the)sake [of] my colonial soiling."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Dominance",
+                              "Denial",
+                              "Destruction"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-006",
+                        "title":"06_ Portrait twenty seven",
+                        "theme":"Work",
+                        "lines":[
+                           "He knows his space: his nook",
+                           "Hardly a room, a corner, took.",
+                           "For a coffee machine … refreshments — look.",
+                           "One man’s domain, white shirt black trousers",
+                           "Occasional hoike, belt slack look.",
+                           "With not so much pride as disdainful duty",
+                           "He works diligently around the smallest of spaces.",
+                           "Wipe this, that twice if you’re counting",
+                           "Three if you’re not, a spray, some powder",
+                           "Run through the machine hot.",
+                           "He’s been working now for close to an hour",
+                           "Occasional stop to flick, look, news, sport",
+                           "Basketball hook, shot of coffee — not served.",
+                           "Since we left just cleaning and gleaming, wiping his nook",
+                           "Not content with wiping, spraying",
+                           "He starts with the scraping, forensically struck.",
+                           "With attention to detail, the bottom of the tap a trap for muck",
+                           "Not a little muck, the kind that requires metallic attention",
+                           "Vigorous intervention sends knives through your teeth,",
+                           "love through your heart, for this is someone who won’t stop if he starts.",
+                           "If his life is as full as his clearing, then someone must scream",
+                           "Under the weight of his endearing",
+                           "Love, might more easily be bestowed on a coffee than a person,",
+                           "Who knows, wait, interruption."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "placeholder",
+                              "poem",
+                              "section"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-007",
+                        "title":"07_ [THE] Beast",
+                        "theme":"Gentrification",
+                        "lines":[
+                           "There’s a prowler, a day (night) stalker",
+                           "Ragged with desire for homogeneous regularity",
+                           "Dressed in a way that strikes fear at the heart of individuality.",
+                           "Cruising across rutted verge its gutted surge",
+                           "Of intent to spend on all things elaborate —",
+                           "Rages at you through perfect grill.",
+                           "If you stand in the way of progress day",
+                           "You risk your own will…",
+                           "IT howls with delight at the sight of floating hills",
+                           "Covered thrills in wolds — far away from hippies.",
+                           "The trip it’s taken didn’t get that high",
+                           "Close enough to strike back to urban centres;",
+                           "A gorge of fuel for its fight.",
+                           "We all just want peacedom to lives lives in freedom",
+                           "Away from the snarling teeth.",
+                           "The beast it knows this, so stalks while it growls “hissss”",
+                           "Through the throng of rutting metallic shells —",
+                           "Heaving for space to breath, breed in the thrusting orgy, a vehicle for utility",
+                           "30 inches diameter, smash down the perimeter.",
+                           "3 feet tyred of banging",
+                           "It gnarls at the dust covered apples.",
+                           "Its punctuated roars tell stories of brawls, late night expressions of importance",
+                           "Lived in fantastical edifices of rural bliss.",
+                           "Watch out for its foul; left under cars, on doorsteps, grass verges",
+                           "Class lurgey spread liberally on sour",
+                           "Do not touch lawns.",
+                           "Once a lonely soul with no where to go, no one to hold",
+                           "It now breeds at speeds that can’t be contained.",
+                           "Spreading its product at a rate of reaction greater than any other faction.",
+                           "Or fractionalised, marginalised minority. It’s gotta be.",
+                           "But that’s what all the outsiders said",
+                           "We just want to live in peace from the beast",
+                           "Sit less transient, more at rest.",
+                           "But it howls at the sound of the heart in our chests."
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Class",
+                              "Wealth",
+                              "Dreams"
+                           ]
+                        }
+                     },
+                     {
+                        "uid":"poem-004-008",
+                        "title":"08_ Dear Bertrand",
+                        "theme":"Society",
+                        "lines":[
+                           "There’s an agitation",
+                           "At the heart of all nations",
+                           "It’s unclear how",
+                           "It can be addressed",
+                           "A date unique in its draw",
+                           "But address we must",
+                           "Or lines of dust will settle",
+                           "On evermore flaws.",
+                           "Collective memory",
+                           "Of went before",
+                           "Faded, almost beyond recall.",
+                           "Dear Bertrand,",
+                           "After many years, littered with scattered batterings of occasional success, collective memories are no longer fresh. A stale vapour filled air, clings to heads of [ what a ] state. Mountain tops of freedoms taste; clouded, shrouded, in varying States of disgrace. Arms are flapping, they’re racing to place, all nation's egotists back into place. Where once stood common purpose, now beam signs of self interest, from platforms increasingly binary in basis of thought. [at best]",
+                           "We tried for many years, with memory fresh, to rebuild liberal nations of model you suggest. With reworking of state; education, ownership the rest… but it seems after all we’re in the same mess. If you were here now, what would you suggest; could concrete steps we take to address, to suggest a middle way, a liberal best. That although not equipped to pass conflicts test, would still beat at the heart of everyone's chest. Set governing in moulds of duty, more than popularity conte(n)sts.",
+                           "In spite, of the spite, a desire persists to drive a sharp difference through community wish. To rise above, power brokers cackles, build worlds that have corners free from shackles, where souls can express their longest held wish without fear of judgment, or worse slit wrists. As memories fade, hope we can see in children, the young those of mind free. More spite than can stomach as causing to flee, invest in the seed that taught they can be, to turn backs on fear fed greed.",
+                           "To who(m) we must turn to help us change course? Our leaders, rulers, tune changers, lords, ladies and self interest men. Alas, distracted by hypermobilisation of economic necessity as key or foundation, all others left unturned. Our hopes of propensity to mutual dependency as bedrock for growth seem lost. Imperialist ambition as alien force, rips through as in need for more; minerals, funerals, long held idea[l]s of national identity dressed As diminished sovereignty… of others.",
+                           "It’s now - ripped nations again, who rise up from the pot, expressing themselves, their historical cost, as reason for kicking the lost. Individualism is rife, causing great strife, as states they claw back at perceived loss; industrial might gives rise to the right to wage war as the engine for growth, as invention sits lonely, creation not croney, cast out from inner circled shouts, neither informed or consulted just jilted, filtered. Out of time, comes dusty pillow covered in mites.",
+                           "A great edifice was created to celebrate self interest, now progressed to point of its own expressions of war. A source of national pride, shaded corners of rooms — all not well, drilled through. There’s a terrible stench, from this Halibut Urn. A great nation of States with empty plates, looks to the vessel, make it great. Must be a fish head left, the only thing not burnt from the fishing trip up at the lodge. Where fake gods and demi-logs drank quickly, so they could forget all.",
+                           "A world whipped to frenzy by a salesman's long ties, (old ties)... to coats made of arms, bottom feeders. You must spend more on instruments of war, to keep you all safe from the threat. There’s nothing new, it's as old as you, the visceral shadow of malicious intent whispering through the hum of industrial syst — umm, audible sounds of commercial crowns worn by new kings whose territorial pissings are not territory bound. Meanwhile liberals can only suck thumbs!",
+                           "When thinking on property, ownership and sovereignty there’s an imbalance I’m compelled to report, events, coming up short. Row upon row on Redrow stand tall all lined up ready to go, to a good home but it’s not something that falls to all. Yet the aspirations keep coming; keeps hum drumming, on kitchen tables, living rooms, halls. If you like it, you can rent it, feel insecure in it, at the hands of another, your comfort uncovered in return for a profit or stateless school ticket.",
+                           "A right not a war, no class, just selfish rewards, ownership not an ending of being for all. Mostly the nervous, those willing to leverage, beyond all common sense. It’s not something we question for where would there be sense, you have your best egg at the expense of the next’s leg, a cuckoo in our nest gentrifying it all. Wrung dry by a ladder not tall or anchored, in necessity for warmth as base to explore creativity’s call, forced to feed, plead not create, generate for all.",
+                           "Gather round bright headlights, circle for sure, on hope we can trust that through universal access to learning there remains hope for us all. By fighting with reason, backed by a critically acclaimed season, we can instil a sense in us all; that walls raised by ignorant glances with mortar of rants, jingoistics chants shared at length in the name of free speech, which, by the way seems never to have cost so much to all. Will not cast a die solid pig or wrought with danger, [balance no stranger.]",
+                           "Education fell on missteps like many another whose rules are a frown. As you do say it can not succeed with liberty wild, authority still needed to gather the crowd, but often true purpose is lost in amongst, desire to smarten, learners tide up with colour of houses. Made to dance on tables that measure success, instead stress the importance of breadth, to see all the sides explore free in the middle, no soul pushed to extremes to live at the seams where hate gleams… through LED beams.",
+                           "The keepers of spirit are no longer in houses built tall by the hands of the s[ca][ac]red. The individuals in the collective Mass have shown themselves ill-equipped to care for, or share all. Those who profess to possess the divine right themselves, have been proven to care not for the flock but more the frock, once elaborate dress dropped, we all stand shocked, cassock hide it can not the horrors it failed to stop. The damage caused is magnitude to the power of [shock.]",
+                           "While seeking a new definition, a relevance, when heads were turned to secular convenience, it now finds itself leaderless in any administrative, spiritually vital sense. As spirits run wild with vigour the church can't seem to figure if there’s a way to get any bigger. Retracting from its congregation; through assets sales, denials, fake smiles, it wakes up to the dawning of truth that of, all the betrayals theirs is greatest for on their ring they demand our kiss falls",
+                           "Improve I can not, on the summary of others. It's simple and true that to get us all through there is one fundamental thing we all need. Sadly we seem to have gotten a little bit lost, although not forgotten. So I’ll restate it here for you, and hope it rings true to all 25 countries anew that what T(HE)Y* said was true. All you need is love*… for me, for them, for all, for You.",
+                           "P.S. You did not mention the King, and so I will not… apart from to say, that society continues to slide at his feet, while he dines on its profits.",
+                           "* T(HE)Y (Lennon)-McCartney"
+                        ],
+                        "poemMetadata":{
+                           "language":"English",
+                           "tags":[
+                              "Society",
+                              "Change",
+                              "Liberalism"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

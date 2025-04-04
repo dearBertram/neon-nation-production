@@ -1,0 +1,108 @@
+html body {
+    overflow: hidden;
+}
+
+.homeContentContainer {
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    background-color: #cedaef;
+}
+
+.logo {
+    position: relative;
+    height: 7em;
+    will-change: filter;
+    transition: filter 300ms;
+    filter: drop-shadow(0 0 2em rgba(242, 0, 137, 0.9));
+    animation: glowPulse 8s infinite ease-in-out;
+}
+
+.neonLine {
+    color: #ff00c8;
+}
+
+@keyframes glowPulse {
+    0% {
+        filter: drop-shadow(0 0 2em #ff0059);
+    }
+    14% {
+        filter: drop-shadow(0 0 2em #ff7300);
+    }
+    28% {
+        filter: drop-shadow(0 0 2em #fffb00);
+    }
+    42% {
+        filter: drop-shadow(0 0 2em #48ff00);
+    }
+    56% {
+        filter: drop-shadow(0 0 2em #00ffd5);
+    }
+    70% {
+        filter: drop-shadow(0 0 2em #00b2ff);
+    }
+    84% {
+        filter: drop-shadow(0 0 2em #a473d8);
+    }
+    100% {
+        filter: drop-shadow(0 0 2em #ff00c8);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.rotatedEllipse {
+    display: inline-block;
+    font-size: 6.5em;
+    text-align: center;
+    transform: rotate(90deg);
+    position: relative;
+    padding-bottom: 65px;
+    color: rgba(242, 0, 137, 0.9);
+}
+
+.linesName {
+    color: #0a0223;
+    font-family: "sono", sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.strapLine {
+    color: #0a0223;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.imprintDetail {
+    color: #0a0223;
+    font-weight: 400;
+    margin-top: 3em;
+}
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+    html, body {
+        height: auto;
+        overflow: auto;
+    }
+
+    #root {
+        padding: 1rem;
+        text-align: left;
+    }
+}
+
