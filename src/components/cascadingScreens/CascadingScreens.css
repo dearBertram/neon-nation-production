@@ -69,19 +69,19 @@
 
 /* Randomized images */
 .image-1 {
-    background-image: url("/src/assets/images/beast.jpg");
+    /*background-image: url("/src/assets/images/beast.jpg");*/
     animation-delay: 0.1s;
     border-radius:20%;
 }
 
 .image-2 {
-    background-image: url("/src/assets/images/custard.png");
+    /*background-image: url("/src/assets/images/custard.png");*/
     animation-delay: 0.2s;
     border-radius:20%;
 }
 
 .image-3 {
-    background-image: url("/src/assets/images/ginger.png");
+    /*background-image: url("/src/assets/images/ginger.png");*/
     animation-delay: 0.4s;
     border-radius:20%;
 }
