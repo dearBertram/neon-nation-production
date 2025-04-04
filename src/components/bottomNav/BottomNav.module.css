@@ -1,0 +1,106 @@
+.bottomNavBar {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    width: 100vw;
+    max-width: 1000vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(10, 2, 35);
+    opacity: 0.8;
+    padding: 1.5rem;
+    z-index: 99;
+    transition: transform 1.5s ease-in-out;
+    pointer-events: auto;
+}
+
+.navButtons {
+    width: 3rem;
+    height: 3rem;
+    z-index: 10;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative; /* Needed if you use absolute positioning for pseudo-elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navButtons::before {
+    content: "";
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -3px; /* Expands glow slightly outside the button */
+    left: -3px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(6px);
+    width: calc(100% + 10px); /* Ensures the glow extends evenly */
+    height: calc(100% + 10px);
+    animation: glowing 30s linear infinite;
+    opacity: 1;
+    border-radius: 50%;  /* Ensures the glow matches the circular shape */
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+/* Click animation */
+.navButtons:active::before {
+    transform: scale(1.1); /* Briefly enlarges the glow */
+    filter: blur(12px); /* Increases blur intensity */
+    opacity: 1;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+/* Background layer */
+.navButtons::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0a0223;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.navButtons:active::after {
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.homeButton {
+    width: 4.1rem;
+    height: 4.1rem;
+    background-color: rgba(242, 0, 137, 1);
+    border: 2px solid #ff7300;
+}
+
+.navIconPrevious {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 33%;
+}
+
+.navIconNext {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 40%;
+}
+
+/* Glowing animation */
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

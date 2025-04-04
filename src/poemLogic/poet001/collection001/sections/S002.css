@@ -1,0 +1,187 @@
+/* POEM SPECIFIC STYLES */
+
+/*POEM-002-001 */
+.poem-002-001 .poem-lines-group {
+    padding: 0 1rem 7rem 1rem;
+}
+
+.poem-002-001 .poem-line {
+    font-family: Geist, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    text-align: center;
+    padding-top: 4rem;
+    text-transform: uppercase;
+}
+
+.poem-002-001 .poem-line:nth-child(even) {
+    background: #b1aeae;
+    color: #0a0223;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    animation: fadeBackground 8s infinite cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.poem-002-001 .poem-line:nth-child(35) {
+    background: #fb0303;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@keyframes fadeBackground {
+    0% {
+        background-color: rgba(177, 174, 174, 0);
+        opacity: 0;
+    }
+    10% {
+        background-color: rgba(177, 174, 174, 0.3);
+        opacity: 0.9;
+    }
+    30% {
+        background-color: rgba(177, 174, 174, 0.6);
+        opacity: 0.85;
+    }
+    50% {
+        background-color: rgba(177, 174, 174, 0.9);
+        opacity: 1;
+    }
+    70% {
+        background-color: rgba(177, 174, 174, 0.6);
+        opacity: 0.85;
+    }
+    90% {
+        background-color: rgba(177, 174, 174, 0.3);
+        opacity: 0.5;
+    }
+    100% {
+        background-color: rgba(177, 174, 174, 0);
+        opacity: 0;
+    }
+}
+
+/*POEM-002-002 */
+.poem-002-002 .poem-line {
+    font-size: 1.6rem;
+    font-weight: 350;
+    text-align: right;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    line-height: 4rem;
+}
+
+.poem-002-002 .poem-line:nth-child(5),
+.poem-002-002 .poem-line:nth-child(3),
+.poem-002-002 .poem-line:nth-child(8),
+.poem-002-002 .poem-line:nth-child(11),
+.poem-002-002 .poem-line:nth-child(18),
+.poem-002-002 .poem-line:nth-child(27) {
+    font-size: 1.2rem;
+}
+
+.poem-002-002 .poem-line:nth-child(24) {
+    font-size: 1.3rem;
+}
+
+/*POEM-002-003 */
+.poem-002-003 .poem-lines-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between divs */
+    overflow-y: auto; /* Allows scrolling */
+    max-height: 90vh; /* Ensures content fits */
+    padding: 4rem 1rem 0 1rem;
+    background-color: #0a0223;
+}
+
+.poem-002-003 .poem-line {
+    background-color: rgb(243, 28, 233);
+    padding: 1rem 0 1rem 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*POEM-002-004 */
+.poem-002-004 .poem-lines-group {
+    text-align: center;
+    padding: 12rem 1rem 0 1rem;
+}
+
+.poem-002-004 .poem-line {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.poem-002-004 .poem-line:nth-child(4n) {
+    padding-bottom: 3rem;
+}
+
+.poem-002-004 .poem-line:nth-child(30) {
+    font-size: 10rem;
+}
+
+/*POEM-002-005 */
+.poem-002-005 .poem-line {
+    font-size: 1.2rem;
+    text-align: right;
+    font-weight: 300;
+    line-height: 2.5;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.poem-002-005 .poem-line:nth-child(28),
+.poem-002-005 .poem-line:nth-child(43) {
+    font-size: 1.1rem;
+}
+
+/*POEM-002-006 */
+.poem-002-006 .poem-line {
+    font-size: 2.0rem;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+/*POEM-002-007 */
+.poem-002-007 .poem-lines-group {
+    padding: 0 1rem 7rem 1rem;
+}
+
+.poem-002-007 .poem-line {
+    padding-top: 2rem;
+    font-size: 3rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+.poem-002-007 .poem-line:nth-child(1) {
+    rotate: 90deg;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.poem-002-007 .poem-line:nth-child(3) {
+    rotate: 90deg;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+/*POEM-002-008 */
+.poem-002-008 .poem-lines-group {
+    padding: 0 1rem 0 1rem;
+}
+
+.poem-002-008 .poem-line {
+    opacity: 1;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    font-weight: 300;
+}

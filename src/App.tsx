@@ -9,6 +9,7 @@ const NeonLinesHome = lazy(() => import('./pages/neonLinesHome/NeonLinesHome.tsx
 const Poets = lazy (() => import('./pages/poets/Poets.tsx'));
 const Collections = lazy (() => import('./pages/collections/Collections.tsx'));
 const Sections = lazy (() => import('./pages/sections/Sections.tsx'));
+const PoemPage = lazy (() => import('./pages/poem/PoemPage.tsx'));
 const AboutUs = lazy (() => import('./pages/supportPages/AboutUs.tsx'));
 const PageNotFound = lazy (() => import('./pages/supportPages/PageNotFound.tsx'));
 const PrivacyPolicy = lazy (() => import('./pages/supportPages/PrivacyPolicy.tsx'));
@@ -24,6 +25,7 @@ const App =() => {
                     <Route path="/poets" element={<Poets />} />
                     <Route path="/collections" element={<Collections />} />
                     <Route path="/sections" element={<Sections />} />
+                    <Route path="/poem/:uid" element={<PoemPage />} />
                     <Route path="/about" element={<AboutUs />} />
                     <Route path="/privacy" element={<PrivacyPolicy />} />
                     <Route path="/terms" element={<Terms />} />

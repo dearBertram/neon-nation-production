@@ -1,0 +1,76 @@
+/* POEM SPECIFIC STYLES */
+
+/*POEM-003-001 */
+.poem-003-001 .poem-lines-group {
+    padding-top: 4rem;
+    padding-bottom: 0;
+    z-index: 10;
+}
+
+
+.poem-003-001 .poem-line {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+/*POEM-003-002 */
+.poem-003-002 .poem-line {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 0.8rem;
+}
+
+/*POEM-003-003 */
+.poem-003-003 .poem-title {
+    font-size: 49px;
+}
+
+.poem-003-003 .poem-line {
+    font-size: 1.6rem;
+    text-align: right;
+    font-weight: 300;
+    padding: 0 1.5rem 1.5rem 0.5rem;
+}
+
+/*POEM-003-004 */
+.poem-003-004 .poem-line {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.poem-003-004 .poem-line:nth-child(even) {
+    padding-bottom: 2rem; /* Adjust value as needed */
+}
+
+/*POEM-003-005 */
+.poem-lines-container {
+    padding-left: 0;
+}
+
+/*POEM-003-006 */
+.poem-003-006 .poem-title {
+    font-size: 1.7rem;
+    clip-path: inset(0 10px 0 0);
+    padding-bottom: 1.8rem;
+}
+
+.poem-003-006 .poem-line {
+    font-size: 1.8rem;
+}
+
+.form-container {
+    padding: 5rem 0 0 0.5rem ;
+}
+
+/*POEM-003-007 */
+.poem-003-007 .poem-line {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding-left: 0.5rem;
+}
+
+/*POEM-003-008 */
+
+
+

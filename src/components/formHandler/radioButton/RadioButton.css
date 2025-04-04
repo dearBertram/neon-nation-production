@@ -1,0 +1,55 @@
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* Space between the circle and label */
+    cursor: pointer;
+    font-family: "barrio", sans-serif;
+    transition: color 0.2s ease-in-out;
+    padding-top: 4rem;
+    padding-left: 6rem;
+}
+
+.radio-label {
+    font-size: 3rem;
+    color: #20e72e; /* Dark contrast text */
+}
+
+/* Custom Radio Circle */
+.custom-radio-circle {
+    width: 4rem;
+    height: 4rem;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+    background: #20e72e;
+}
+
+.selected-effect {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background: rgba(242, 0, 137);
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: fade-in-scale 2s ease-in-out;
+}
+
+/* ✅ Fade-in scaling animation */
+@keyframes fade-in-scale {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.3);
+    }
+}

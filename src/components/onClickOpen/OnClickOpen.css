@@ -1,0 +1,16 @@
+.poem-section {
+    background: rgb(243, 28, 233);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.poem-line.highlight-line {
+    font-weight: bolder;
+    color: #ffffff; /* Adjust color for emphasis */
+    text-transform: uppercase;
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
+    background: rgba(242, 0, 137, 0.9) no-repeat center;
+    text-align: center;
+    border-radius: 5px;
+}

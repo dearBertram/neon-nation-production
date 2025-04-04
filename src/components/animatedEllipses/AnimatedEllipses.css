@@ -1,0 +1,39 @@
+.ellipsesContainer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #48ff00;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ellipses {
+    font-size: 10rem;
+    animation: jump 1.5s ease-in-out infinite; /* Continuous wave effect */
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-15px); /* Jump up */
+    }
+    60% {
+        transform: translateY(0); /* Fall back */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.ellipses:nth-child(1) {
+    animation-delay: 0s;
+}
+.ellipses:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.ellipses:nth-child(3) {
+    animation-delay: 0.4s;
+}

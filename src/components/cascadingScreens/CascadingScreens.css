@@ -1,0 +1,130 @@
+.tv-container {
+    width:100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #0a0223;
+    transition: opacity 1s ease-in-out;
+}
+
+.tv-container.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tv {
+    position: absolute;
+    background-color: #f31ce9;
+    border-radius: 20%;
+    box-shadow: 0 0 20px white, 0 0 20px rgba(242, 0, 137, 0.9);
+    top: -50px;
+    animation: fall linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.special-tv {
+    background-color: rgba(32, 231, 46, 0.7);
+    box-shadow: 0 0 25px rgba(0, 145, 173, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, opacity 0.5s;
+    animation-duration: 10s !important;
+    animation: fall 10s linear infinite !important;
+}
+
+/* Add a subtle pulsing effect to attract attention */
+.special-tv:hover {
+    transform: scale(1.2);
+}
+
+/* Special TV Content */
+.special-content {
+    font-weight: 300;
+    color: #0a0223;
+    font-family: "barrio", sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Falling animation */
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+/* TV screen content */
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    animation: image 3s linear alternate infinite;
+}
+
+/* Randomized images */
+.image-1 {
+    background-image: url("/src/assets/images/beast.jpg");
+    animation-delay: 0.1s;
+    border-radius:20%;
+}
+
+.image-2 {
+    background-image: url("/src/assets/images/custard.png");
+    animation-delay: 0.2s;
+    border-radius:20%;
+}
+
+.image-3 {
+    background-image: url("/src/assets/images/ginger.png");
+    animation-delay: 0.4s;
+    border-radius:20%;
+}
+
+/* Opacity animation for images */
+@keyframes image {
+    0% { opacity: 0; }
+    60% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.word {
+    text-align: center;
+    font-family: 'sono', sans-serif;
+    color: #ffffff;
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.full-poem {
+    position: absolute;
+    top: 6vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background: #0a0223;
+    transition: opacity 1s ease-in-out;
+    padding-bottom: 7rem;
+}
+
+/* Style for full poem text */
+.poem-line-full {
+    font-family: 'sono', sans-serif;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 1.2rem;
+    font-weight: 300;
+}
+
+.beast {
+    object-fit: contain;
+    padding-top: 0.5rem;
+}

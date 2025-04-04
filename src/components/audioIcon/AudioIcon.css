@@ -1,0 +1,55 @@
+.audioWrapper {
+    padding-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audioIcon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(10, 2, 35); /* Dark background */
+    transition: transform 1s ease-in-out;
+    cursor: none;
+}
+
+@keyframes pulseScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.audioIcon.playing {
+    animation: pulseScale 3s infinite ease-in-out;
+}
+
+.instruction {
+    position: absolute;
+    top: 38%;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "barrio", sans-serif;
+    color: #ffffff;
+}
+
+.displayText {
+    position: absolute;
+    top: 55%;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "barrio", sans-serif;
+    color: #0a0223;
+    padding: 1rem;
+    background-color: #48ff00;
+}

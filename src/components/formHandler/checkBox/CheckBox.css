@@ -1,0 +1,53 @@
+/* ✅ Ensures layout consistency */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers checkbox */
+    gap: 10px; /* Space between checkbox and label */
+    cursor: pointer;
+    padding: 4rem;
+}
+
+/* ✅ Custom checkbox appearance */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    cursor: pointer;
+    color: #20e72e;
+    font-family: "barrio", sans-serif;
+    padding-left: 1rem;
+}
+
+/* ✅ Hide default checkbox */
+.checkbox-label input[type="checkbox"] {
+    display: none;
+}
+
+/* ✅ Custom checkbox styling */
+.custom-checkbox {
+    width: 4rem;
+    height: 4rem;
+    border: 8px solid #20e72e;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    transition: background 0.3s ease-in-out;
+}
+
+/* ✅ Checkmark when checked */
+.checkbox-label input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: rgba(242, 0, 137, 0.9);
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-checkbox::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 20px; /* Adjust size */
+    height: 20px; /* Adjust size */
+    border: solid white;
+    border-width: 0 5px 5px 0; /* Thicker stroke */
+    transform: rotate(30deg) scale(2.0); /* Scale up */
+}

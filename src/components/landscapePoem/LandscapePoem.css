@@ -1,0 +1,84 @@
+.rotate-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.phone {
+    background-color: #48ff00;
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    animation: rotate 3s ease-in-out infinite alternate;
+    align-items: center;
+}
+
+.message {
+    color: #0a0223;
+    font-family: "Sono", sans-serif;
+    font-size: 1rem;
+    padding-top: 2.5rem;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-90deg)
+    }
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    .phone, .message {
+        display: block;
+    }
+}
+
+.navigation-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 100vh;
+    background-color: rgb(32, 231, 46); /* Semi-transparent dark background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Place buttons at top and bottom */
+    align-items: center;
+    padding: 130px 0;
+}
+
+.nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #20e72e;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%; /* Circular buttons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a0223;
+}
+
+.nav-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.landscape-container {
+    padding-right: 60px; /* Same width as navigation bar */
+}

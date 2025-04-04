@@ -1,0 +1,118 @@
+.verseSelectorWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+
+.verseLineView {
+    width: 95%;
+    height: 80vh;
+    padding-top: 0;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: "Sono", sans-serif;
+    background: rgb(10, 2, 35);
+    font-weight: 300;
+    border: 5px solid white;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.scrollingTextContainer {
+    width: 100%;
+    height: 100%;
+    max-height: 88%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.verse {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    text-align: left;
+}
+.verse.active {
+    transform: translateX(0%);
+}
+
+.verse.hidden {
+    transform: translateX(-100%);;
+}
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    position: fixed;
+    top: 78%;
+    gap: 0.2rem;
+}
+
+.selectItem {
+    background-color: #20e72e;
+    color: #0a0223;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.8rem;
+    font-family: 'Barrio', sans-serif;
+}
+
+.reflection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px; /* Slightly larger */
+    height: 300px;
+    background: radial-gradient(circle, rgba(242, 0, 137, 0.9) 0%, rgba(255, 255, 255, 0) 80%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(20px); /* Increased initial blur */
+    pointer-events: none; /* Ensures no interaction */
+
+    /* Enhanced Animation */
+    animation: pulseBlur 5s infinite ease-in-out;
+}
+
+/* Keyframes for stronger pulsing effect */
+@keyframes pulseBlur {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        filter: blur(15px);
+        opacity: 0.25;
+    }
+    40% {
+        transform: translate(-50%, -50%) scale(1.2);
+        filter: blur(30px);
+        opacity: 0.5;
+    }
+    70% {
+        transform: translate(-50%, -50%) scale(1.1);
+        filter: blur(25px);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        filter: blur(15px);
+        opacity: 0.25;
+    }
+}

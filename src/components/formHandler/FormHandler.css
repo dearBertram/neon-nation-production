@@ -1,0 +1,14 @@
+.form-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.thank-you-message {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 6rem;
+    font-family: "sono", sans-serif;
+    line-height: 3;
+}

@@ -1,0 +1,56 @@
+/* Container for Text Box */
+.text-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 6rem;
+    width: 100%;
+}
+
+/* Input Field */
+.text-box-input {
+    width: 90%;
+    height: 6rem;
+    max-width: 400px;
+    padding: 0.8rem;
+    font-size: 2rem;
+    border: 4px solid #20e72e;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    font-family: "barrio", sans-serif;
+}
+
+.text-box-input:focus {
+    border-color: rgba(32, 231, 46, 0.7);
+    box-shadow: 0 0 10px rgba(32, 231, 46, 0.4);
+}
+
+/* Submit Button */
+.text-box-submit {
+    background-color: #20e72e;
+    color: #0a0223;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-family: "barrio", sans-serif;
+}
+
+.text-box-submit:hover {
+    transform: scale(1.05);
+    background-color: rgba(32, 231, 46, 0.8);
+}
+
+/* Error Message */
+.text-box-error {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: "Sono", sans-serif;
+    background-color: rgba(242, 0, 137, 0.9);
+    padding: 1rem;
+    text-align: center;
+}

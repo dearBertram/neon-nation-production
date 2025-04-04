@@ -1,0 +1,75 @@
+.scrollContainer {
+    width: 100vw; /* Full viewport width */
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    justify-content: center;
+}
+
+.scrollContent {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 50s linear infinite;
+}
+
+.paused .scrollContent {
+    animation-play-state: paused;
+}
+.paused {
+    animation-play-state: paused;
+}
+
+/* Adjust font and spacing */
+.poem-004-001 .poem-line {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding-right: 2rem;
+}
+
+.scrollContent .poem-line:nth-child(1) {
+    font-weight: bold;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.pauseControl {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background-color: #20e72e;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease-in-out;
+}
+
+/* Add visual feedback when pressed */
+.pauseControl:active {
+    transform: translateX(-50%) scale(0.9);
+}
+
+.pauseControlContent {
+    font-family: 'Barrio', sans-serif;
+    color: #0a0223;
+    justify-content: center;
+    padding: 2.2rem 1rem 1rem 2.8rem;
+}
+
+.pauseButton {
+    object-fit: contain;
+}
+
+
