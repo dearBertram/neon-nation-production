@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent page-level scroll */
+    margin: 0;
+}
+
 .container {
     position: relative;
     height: 100vh;
@@ -16,13 +22,14 @@
 
 .scrollableContent {
     position: absolute;
-    top: 220px;
-    bottom: 30px;
+    top: 170px;
+    bottom: 110px;
     left: 0;
     right: 0;
     overflow-y: auto;
     padding-bottom: 1rem;
     z-index: 2;
+    -webkit-overflow-scrolling: touch;
 }
 
 .overlay {

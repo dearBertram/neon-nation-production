@@ -1,15 +1,14 @@
-import { useEffect, useState } from "react";
-import { Link} from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Link} from 'react-router-dom';
 import { fetchPoetDocument } from '../../dataConnections/poetDataLoader.ts'
-import { PoetDocument } from "../../models/poets.ts";
-import useWindowResizeThreshold from "../../hooks/useWindowResizeThreshold.ts";
+import { PoetDocument } from '../../models/poets.ts';
+import useWindowResizeThreshold from '../../hooks/useWindowResizeThreshold.ts';
 
-import LoadingSpinner from "../../components/loadingSpinner/LoadingSpinner.tsx";
-import DataLoadingError from "../supportPages/DataLoadingError.tsx";
-import MobileOnly from "../supportPages/mobileOnly/MobileOnly.tsx";
-import TopNavWithHome from "../../components/topNavWithHome/TopNavWithHome.tsx";
+import LoadingSpinner from '../../components/loadingSpinner/LoadingSpinner.tsx';
+import DataLoadingError from '../supportPages/DataLoadingError.tsx';
+import MobileOnly from '../supportPages/mobileOnly/MobileOnly.tsx';
+import TopNavWithHome from '../../components/topNavWithHome/TopNavWithHome.tsx';
 
-import neonBackground from '/neonBackgroundLandscape.svg'
 import glasses from '/glasses.svg'
 
 import styles from './Poets.module.css'
@@ -33,9 +32,9 @@ function Poets () {
                 if (!isMounted) return;
                 setPoet(fetchedPoet);
             } catch (err) {
-                console.error("Error loading poet:", err);
+                console.error('Error loading poet:', err);
                 if (isMounted) {
-                    setError("Failed to load poet data. Please try again later.");
+                    setError('Failed to load poet data. Please try again later.');
                 }
             } finally {
                 if (isMounted) {
@@ -70,14 +69,13 @@ function Poets () {
     return (
         <div className={styles.poetsContainer}>
             <TopNavWithHome/>
-            <img src={neonBackground} alt="Neon Nation landscape" className={styles.overlay}/>
-            <Link to="/collections">
+            <Link to='/collections'>
                 <div className={styles.content}>
                     <img src={glasses} alt={`neon poet`} className={styles.profileImage}/>
                 </div>
                 <div className={styles.profileText}>
-                    <h2>{poet?.poet.name || "Name not available"}</h2>
-                    <p>{poet?.poet.bio || "Bio not available"}</p>
+                    <h2>{poet?.poet.name || 'Name not available'}</h2>
+                    <p>{poet?.poet.bio || 'Bio not available'}</p>
                 </div>
                 <h1 className={styles.rotatedEllipse}>...</h1>
             </Link>

@@ -7,11 +7,11 @@
     z-index: 10;
 }
 
-
 .poem-003-001 .poem-line {
     font-size: 1.6rem;
     font-weight: 300;
     padding: 1rem;
+    color: white;
 }
 
 /*POEM-003-002 */

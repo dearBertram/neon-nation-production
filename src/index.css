@@ -11,7 +11,7 @@
 
 html, body {
   font-family: "Assistant", sans-serif; /* Global font family */
-  font-size: 17px;
+  font-size: 14px;
   height: 100%;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -20,6 +20,7 @@ html, body {
   color-scheme: light dark; /* Support for dark mode */
   background-color: rgb(10, 2, 35);
   overflow-x: hidden;
+  color: white;
 }
 
 a {
@@ -41,7 +42,7 @@ button {
 
 :root {
   /* Colours */
-  --background-color-dark: rgb(32, 231, 46);
+  --background-color-dark: rgb(143, 223, 149);
   --background-color-light: #ffffff;
   --primary-color: #fb5607;
   --secondary-color: #535bf2;

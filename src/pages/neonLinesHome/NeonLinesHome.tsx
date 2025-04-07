@@ -45,7 +45,6 @@ function NeonLinesHome() {
                         <Link to="/poets">
                             <h1 className={styles.rotatedEllipse}>...</h1>
                         </Link>
-
                         <div>
                             <p className={styles.strapLine}>
                                 Words made for sharing<br/> Spend a few moments

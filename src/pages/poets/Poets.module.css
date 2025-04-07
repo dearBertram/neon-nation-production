@@ -40,10 +40,10 @@
 
 .profileText {
     position: absolute;
-    top: calc(4rem + 0.5rem); /* Adjust distance from the TopNav (3rem height + 1rem gap) */
+    top: calc(1rem + 0.5rem);
     left: 0;
-    width: 100vw; /* Span the entire viewport width */
-    box-sizing: border-box; /* Ensure padding doesn’t affect the width */
+    width: 100svw;
+    box-sizing: border-box;
     z-index: 3;
     margin: auto auto;
     padding-left: 4em;
@@ -91,12 +91,12 @@ h1 {
 
 .rotatedEllipse {
     position: absolute;
-    top: 53.5%;
+    top: 40.5%;
     left: 55%;
     font-size: 6.5em;
     text-align: center;
     transform: rotate(90deg);
-    padding-top: 80px;
+    padding-top: 60px;
     color: rgba(242, 0, 137, 0.9);
     z-index: 10;
 }

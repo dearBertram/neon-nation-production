@@ -71,8 +71,6 @@ function Collections() {
             <TopNavWithHome/>
             <Link to="/sections">
                 <img src={neonBackground} alt="Neon Nation landscape" className={styles.overlay}/>
-                <div className={styles.content}>
-                </div>
                 <div className={styles.collectionDetails}>
                     <h1>{collection.name || "Unnamed collection"}</h1>
                     <p>{collection.description || "Description not available"}</p>

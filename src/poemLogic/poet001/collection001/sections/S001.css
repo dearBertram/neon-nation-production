@@ -1,6 +1,10 @@
 /* POEM LEVEL STYLES
 Global styles for the PoemPage container and fall back title and lines */
 
+html body {
+    overflow-x: scroll;
+}
+
 .poem-lines-group {
     padding-top: 0.5em;
 }
@@ -13,7 +17,7 @@ Global styles for the PoemPage container and fall back title and lines */
 
 .poem-line {
     font-family: 'Sono', sans-serif;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 /* POEM SPECIFIC STYLES */
@@ -25,7 +29,7 @@ Global styles for the PoemPage container and fall back title and lines */
 
 .poem-001-001 .poem-line {
     opacity: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     padding-left: 1rem;
     line-height: 2;
