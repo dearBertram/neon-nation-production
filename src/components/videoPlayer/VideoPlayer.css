@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 .videoBackground {
@@ -15,6 +16,7 @@
     height: 100%;
     object-fit: cover;
     transition: opacity 2s ease-in-out;
+    z-index: 1;
 }
 
 .videoBackground.fadeOut {
@@ -31,6 +33,7 @@
     mix-blend-mode: overlay; /* Ensures it blends well with the video */
     pointer-events: none; /* Prevents blocking interactions */
     transition: opacity 2s ease-out;
+    z-index: 2;
 }
 
 .videoTrigger {
@@ -42,7 +45,7 @@
     cursor: pointer;
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
-    z-index: 10;
+    z-index: 3;
 }
 
 /* Fade in animation for the circle */

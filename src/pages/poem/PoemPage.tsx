@@ -34,7 +34,7 @@ function PoemPage() {
     const [poem, setPoem] = useState<Poem | null>(null);
     const [error, setError] = useState<string | null>(null);
     const isMobile = useWindowResizeThreshold(MAX_MOBILE_WIDTH);
-    //Block scoped variable
+
     const sectionUid = poem ? `collection-001-section-${poem.uid.split('-')[1]}` : location.state?.sectionUid;
 
     useEffect(() => {

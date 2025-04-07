@@ -41,13 +41,14 @@
     left: -3px;
     background-size: 400%;
     z-index: -1;
-    filter: blur(6px);
-    width: calc(100% + 10px); /* Ensures the glow extends evenly */
-    height: calc(100% + 10px);
+    filter: blur(4px);
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
     animation: glowing 30s linear infinite;
     opacity: 1;
-    border-radius: 50%;  /* Ensures the glow matches the circular shape */
+    border-radius: 50%;
     transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    clip-path: circle(50%);
 }
 
 /* Click animation */
@@ -82,6 +83,7 @@
     height: 4.1rem;
     background-color: rgba(242, 0, 137, 1);
     border: 2px solid #ff7300;
+    border-radius: 50%;
 }
 
 .navIconPrevious {
@@ -89,6 +91,7 @@
     width: 25%;
     height: auto;
     left: 33%;
+    border-radius: 50%;
 }
 
 .navIconNext {
@@ -96,6 +99,7 @@
     width: 25%;
     height: auto;
     left: 40%;
+    border-radius: 50%;
 }
 
 /* Glowing animation */

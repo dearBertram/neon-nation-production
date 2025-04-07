@@ -22,8 +22,8 @@
 }
 
 /*POEM-003-003 */
-.poem-003-003 .poem-title {
-    font-size: 49px;
+.poem-003-003 .poem-lines-group {
+    padding-top: 0;
 }
 
 .poem-003-003 .poem-line {

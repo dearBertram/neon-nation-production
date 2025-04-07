@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Section } from '../../models/poets.ts';
 import { Link } from "react-router-dom";
+
+import { Section } from '../../models/poets.ts';
 import PaymentModal from '../paymentModal/PaymentModal.tsx';
 
 import next from '/nextNew.svg';

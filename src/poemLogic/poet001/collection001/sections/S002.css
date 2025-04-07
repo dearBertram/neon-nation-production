@@ -89,10 +89,10 @@
 .poem-002-003 .poem-lines-group {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Spacing between divs */
-    overflow-y: auto; /* Allows scrolling */
-    max-height: 90vh; /* Ensures content fits */
-    padding: 4rem 1rem 0 1rem;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 90vh;
+    padding: 4rem 1rem 7rem 1rem;
     background-color: #0a0223;
 }
 
@@ -109,7 +109,7 @@
 /*POEM-002-004 */
 .poem-002-004 .poem-lines-group {
     text-align: center;
-    padding: 12rem 1rem 0 1rem;
+    padding: 4rem 1rem 0 1rem;
 }
 
 .poem-002-004 .poem-line {
@@ -142,9 +142,9 @@
 
 /*POEM-002-006 */
 .poem-002-006 .poem-line {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     text-align: center;
-    padding: 1.5rem;
+    padding: 3rem 0.5rem 0.5rem 0.5rem;
     font-weight: 300;
 }
 

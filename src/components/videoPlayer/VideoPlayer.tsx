@@ -110,6 +110,7 @@ const VideoPlayer: React.FC = () => {
                 className={`videoBackground ${fadeVideoOut ? "fadeOut" : ""}`}
                 autoPlay
                 muted
+                playsInline
                 loop
             />
             {!hideOverlay && <div className="videoOverlay"></div>}

@@ -1,9 +1,12 @@
 .ellipsesContainer {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
     display: flex;
     gap: 0.5rem;
     align-items: center;
     color: #48ff00;
-    position: relative;
+
     padding-top: 2rem;
     padding-left: 1rem;
 }

@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    padding: 50px 10px 50px 10px;
+    padding: 20px 10px 20px 10px;
     border-top: 4px solid #20e72e;
     border-bottom: 4px solid #20e72e;
 }
@@ -26,7 +26,7 @@
 
 .dotLabelTop {
     position: absolute;
-    top: -27%;
+    top: -20%;
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "barrio", sans-serif;
@@ -36,7 +36,6 @@
 .dotLabelBottom {
     position: absolute;
     top: 100%;
-    margin-top: 12px;
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "barrio", sans-serif;

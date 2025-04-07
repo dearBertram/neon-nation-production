@@ -29,8 +29,8 @@ const GridSelector: React.FC<GridSwipeSelectorProps> = ({poem}) => {
                         </p>
                     </>
                 ) : (
-                    <div>
-                        <img src={fish} className='fishHead' alt="A fish head in the bin" />
+                    <div className='fishHeadContainer'>
+                        <img src={fish}  className='fishHead' alt="A fish head in the bin" />
                     </div>
                 )}
             </div>

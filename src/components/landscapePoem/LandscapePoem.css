@@ -56,7 +56,7 @@
     flex-direction: column;
     justify-content: space-between; /* Place buttons at top and bottom */
     align-items: center;
-    padding: 130px 0;
+    padding: 170px 0;
 }
 
 .nav-button {

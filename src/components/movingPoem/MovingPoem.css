@@ -44,6 +44,9 @@
 
 .pauseControl {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
@@ -64,8 +67,6 @@
 .pauseControlContent {
     font-family: 'Barrio', sans-serif;
     color: #0a0223;
-    justify-content: center;
-    padding: 2.2rem 1rem 1rem 2.8rem;
 }
 
 .pauseButton {

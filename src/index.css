@@ -6,12 +6,11 @@
 
 #root {
   height: 100%;
-  display: flex;
 }
 
 html, body {
   font-family: "Assistant", sans-serif; /* Global font family */
-  font-size: 14px;
+  font-size: 14px; /* Base font size */
   height: 100%;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -33,11 +32,11 @@ ul {
 }
 
 button {
-  all: unset; /* Removes all inherited styles */
-  display: inline-block; /* Ensures proper sizing */
-  cursor: none; /* Enables the pointer cursor */
+  all: unset;
+  display: inline-block;
+  cursor: none;
   text-align: center;
-  font: inherit; /* Uses the inherited font */
+  font: inherit;
 }
 
 :root {

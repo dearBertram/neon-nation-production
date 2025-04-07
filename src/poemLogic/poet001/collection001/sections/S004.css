@@ -97,19 +97,17 @@
     line-height: 2;
 }
 
-/*POEM-004-005 */
+/*POEM-004-005*/
 .poem-004-005 .poem-lines-group {
-    position: absolute;
-    top: 25%;
-    left: 23%;
-    transform: rotate(-90deg) translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    white-space: nowrap; /* Ensures the lines stay in one column */
-    overflow-y: hidden;
-    padding: 0;
+    width: max-content;
+    position: relative;
+    transform: rotate(-90deg) translateY(25%);
+    white-space: nowrap;
+    overflow: hidden;
+    overscroll-behavior: none;
+    padding-left: 6rem;
+    -webkit-overflow-scrolling: auto;
+    touch-action: none;
 }
 
 .poem-004-005 .poem-line {
