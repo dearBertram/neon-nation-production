@@ -1,0 +1,45 @@
+.footstep-container {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw; /* Adjust width to control spacing */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    gap: 5rem;
+}
+
+.footstep-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.footstep {
+    width: 20vw;
+    height: auto;
+    opacity: 0.8;
+}
+
+.left-foot {
+    animation-delay: 0s; /* Left foot goes first */
+}
+
+/* Right foot animation (slightly delayed for natural walk effect) */
+.right-foot {
+    animation-delay: 1.5s; /* Halfway through the left foot cycle */
+}
+
+.footstep:nth-child(odd) {
+    margin-top: 3vh;
+}
+
+.footstep:nth-child(even) {
+    margin-top: -3vh;
+}
+

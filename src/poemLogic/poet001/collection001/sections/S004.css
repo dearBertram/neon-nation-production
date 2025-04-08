@@ -172,11 +172,12 @@
 
 /*POEM-004-008 */
 .poem-004-008 .poem-lines-group {
-    padding: 4.5rem 1rem 7rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .poem-004-008 .poem-line {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
 }
 
 .poem-004-008 .poem-line[data-index="0"],
@@ -185,6 +186,21 @@
 .poem-004-008.poem-line[data-index="3"],
 .poem-004-008.poem-line[data-index="4"] {
     text-align: right;
+    font-size: 2rem;
+}
+
+.poem-004-008.poem-line[data-index="4"] {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.poem-004-008 .poem-line[data-index="5"],
+.poem-004-008 .poem-line[data-index="6"],
+.poem-004-008 .poem-line[data-index="7"],
+.poem-004-008.poem-line[data-index="8"],
+.poem-004-008.poem-line[data-index="9"],
+.poem-004-008.poem-line[data-index="10"]{
+    font-size: 1.8rem;
 }
 
 .poem-004-008.poem-line[data-index="0"] {
@@ -192,14 +208,15 @@
 }
 
 .poem-004-008.poem-line[data-index="4"] {
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .poem-004-008.poem-line[data-index="11"] {
-    font-size: 5rem;
-    padding-top: 5rem;
+    font-size: 5.5rem;
+    padding-top: 2rem;
 }
 
+.poem-004-008 .poem-line:nth-child(12),
 .poem-004-008 .poem-line:nth-child(13),
 .poem-004-008 .poem-line:nth-child(14),
 .poem-004-008 .poem-line:nth-child(15),

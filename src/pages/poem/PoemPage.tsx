@@ -94,7 +94,7 @@ function PoemPage() {
 
     return (
         <>
-            <TopNavWithHome />
+            {poem.uid !== "poem-004-008" && <TopNavWithHome />}
             <SectionComponent key={poem.uid} poem={poem} />
             <BottomNav
                 key={sectionUid}

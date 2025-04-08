@@ -54,9 +54,8 @@
     background-color: rgb(32, 231, 46); /* Semi-transparent dark background */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Place buttons at top and bottom */
     align-items: center;
-    padding: 170px 0;
+    padding: 100px 0;
 }
 
 .nav-button {
