@@ -119,6 +119,7 @@
 .poem-002-004 .poem-line {
     font-size: 1.6rem;
     font-weight: 300;
+    line-height: 3rem;
 }
 
 .poem-002-004 .poem-line:nth-child(4n) {
@@ -126,7 +127,9 @@
 }
 
 .poem-002-004 .poem-line:nth-child(30) {
-    font-size: 10rem;
+    padding-top: 3rem;
+    font-size: 8rem;
+    color: #f31ce9;
 }
 
 /*POEM-002-005 */
@@ -154,6 +157,7 @@
     text-align: center;
     padding: 3rem 0.5rem 0.5rem 0.5rem;
     font-weight: 300;
+    line-height: 3rem;
 }
 
 /*POEM-002-007 */

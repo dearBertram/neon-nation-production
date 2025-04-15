@@ -24,6 +24,9 @@ const SplatNavigation: React.FC<SplatNavigationProps> = ({ poem }) => {
                 mass: 0.5,
             },
         });
+
+        loadLinesFlashEffect(poem.uid);
+
         await controls.start({
             y: 0,
             scale: 1,
@@ -34,7 +37,6 @@ const SplatNavigation: React.FC<SplatNavigationProps> = ({ poem }) => {
                 mass: 0.5,
             },
         });
-        loadLinesFlashEffect(poem.uid);
     };
 
     useEffect(() => {

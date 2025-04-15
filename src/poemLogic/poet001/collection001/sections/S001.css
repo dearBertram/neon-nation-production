@@ -7,7 +7,7 @@ html body {
     padding-top: 0.5em;
     height: 100svh;
     overflow: auto;
-    padding-bottom:8rem;
+    padding-bottom: 10rem;
     scroll-behavior: smooth;
 }
 
@@ -25,12 +25,12 @@ html body {
 /* POEM SPECIFIC STYLES */
 
 /*POEM-001-001 */
-.poem-001-001 .poem-title {
-    opacity: 0;
+.poem-001-001 .poem-lines-group {
+    padding-top: 3rem;
 }
 
-.poem-001-001 .poem-lines-group {
-    padding-bottom: 8rem;
+.poem-001-001 .poem-title {
+    opacity: 0;
 }
 
 .poem-001-001 .poem-line {
@@ -57,6 +57,10 @@ html body {
 
 /*POEM-001-004 */
 
+.poem-001-004 .poem-lines-group {
+    padding-bottom: 10rem;
+}
+
 .poem-001-004 .poem-line {
     font-size: 1.7rem;
     text-align: right;
@@ -76,6 +80,7 @@ html body {
 
 /*POEM-001-006 */
 .poem-001-006 .poem-lines-group {
+    padding-bottom: 10rem;
     overflow-x: hidden;
 }
 
@@ -207,10 +212,6 @@ html body {
     height: 75vh;
     font-size: 2.5rem;
     text-align: left;
-}
-
-.poem-lines-container::-webkit-scrollbar .poem-001-008 {
-    display: none;
 }
 
 .poem-001-008 .poem-line:nth-child(6n+1) {

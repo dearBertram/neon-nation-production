@@ -24,15 +24,20 @@
 }
 
 /*POEM-003-003 */
+.poem-003-003 .poem-title {
+    color: white;
+    font-size: 1rem;
+}
+
 .poem-003-003 .poem-lines-group {
-    padding-top: 0;
+    padding: 3rem 1rem 10rem 1rem;
 }
 
 .poem-003-003 .poem-line {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: right;
     font-weight: 300;
-    padding: 0 1.5rem 1.5rem 0.5rem;
+    line-height: 2;
 }
 
 /*POEM-003-004 */
@@ -46,9 +51,7 @@
 }
 
 /*POEM-003-005 */
-.poem-lines-container {
-    padding-left: 0;
-}
+
 
 /*POEM-003-006 */
 .poem-003-006 .poem-title {
@@ -66,6 +69,10 @@
 }
 
 /*POEM-003-007 */
+.poem-003-007 .poem-lines-group {
+    padding-bottom: 10rem;
+}
+
 .poem-003-007 .poem-line {
     font-size: 1.8rem;
     font-weight: 300;

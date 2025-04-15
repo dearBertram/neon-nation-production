@@ -20,6 +20,7 @@ html, body {
   background-color: rgb(10, 2, 35);
   overflow-x: hidden;
   color: white;
+  scroll-behavior: auto;
 }
 
 a {

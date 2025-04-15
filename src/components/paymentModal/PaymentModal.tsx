@@ -20,13 +20,19 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ isOpen, onClose}) => {
                     If you've made it this far, <span className={styles.boldText}>THANK YOU!</span>
                 </p>
                 <p className={styles.description}>
-                    If you enjoyed your visit, please consider a small contribution to help with the running costs and ongoing development of <span className={styles.boldText}>NEON LINES.</span>
+                    If you enjoyed your visit, please consider a small contribution to help with the running costs and ongoing development of:
                 </p>
                 <p className={styles.description}>
-                    Your support helps me keep making and sharing poetry and discovering even more voices with words worth sharing.
+                    <span className={styles.boldText}>NEON LINES.</span>
                 </p>
                 <p className={styles.description}>
-                    Thanks again!
+                    Your support will help me keep making and sharing poetry and discovering even more voices with words worth sharing.
+                </p>
+                <p className={styles.description}>
+                    When you click the "Contribute" button you'll be redirected to my payment provider Stripe.
+                </p>
+                <p className={styles.description}>
+                    Thank you for your support!
                 </p>
                 <p className={styles.description}>
                     Stuart : <span className={styles.neonPoet}>Neon Poet...</span>

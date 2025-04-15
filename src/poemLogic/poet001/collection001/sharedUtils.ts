@@ -59,7 +59,7 @@ export function loadLinesFlashEffect(poemUid: string) {
     };
 
     const fullViewport = document.body;
-    fullViewport.style.transition = "background-color 0.3s ease-in-out";
+    fullViewport.style.transition = "background-color 0.2s ease-in-out";
     fullViewport.style.backgroundColor = getFlashColor(poemUid);
 
     setTimeout(() => {
@@ -88,5 +88,5 @@ export function loadLinesFlashEffect(poemUid: string) {
 
         // **Update index for next click**
         poemContainer.setAttribute("data-line-index", currentEndIndex.toString());
-    }, 300); // Matches the flash duration
+    }, 200); // Matches the flash duration
 }
