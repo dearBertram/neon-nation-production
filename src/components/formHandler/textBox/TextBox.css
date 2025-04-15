@@ -48,7 +48,7 @@
 /* Error Message */
 .text-box-error {
     color: rgb(255, 255, 255);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: "Sono", sans-serif;
     background-color: rgba(242, 0, 137, 0.9);
     padding: 1rem;
