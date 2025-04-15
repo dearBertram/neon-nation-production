@@ -4,6 +4,7 @@
 .poem-003-001 .poem-lines-group {
     padding-top: 4rem;
     padding-bottom: 0;
+    height: 60%;
     z-index: 10;
 }
 
@@ -12,6 +13,7 @@
     font-weight: 300;
     padding: 1rem;
     color: white;
+    display: none;
 }
 
 /*POEM-003-002 */

@@ -1,0 +1,73 @@
+.tiles-wrapper {
+    width: 100%;
+    height: 100svh;
+    background: rgb(10, 2, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.tiles-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    grid-gap: 0.5rem;
+    background: #0a0223;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.05);
+    will-change: width, height;
+}
+
+.item {
+    width: 100%;
+    height: 100px;
+    background: #f31ce9;
+    border-radius: 5px;
+    will-change: transform, opacity;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-text {
+    color: #0a0223;
+    font-size: 2.0rem;
+    font-family: "barrio", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.poem-003-008 .poem-line {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.tiles-container .item:nth-child(21) {
+    background-color: #20e72e;
+}
+
+.tiles-container .item:nth-child(1) .poem-line,
+.tiles-container .item:nth-child(15) .poem-line {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.tiles-container .item:nth-child(21) .poem-line {
+    font-size: 3rem;
+    font-family: "barrio", sans-serif;
+    padding-bottom:2rem;
+    color: #0a0223;
+}

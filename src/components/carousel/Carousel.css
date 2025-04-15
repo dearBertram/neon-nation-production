@@ -1,0 +1,52 @@
+.carousel-container {
+    position: relative;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px; /* Creates depth effect */
+    padding: 21rem 0 0 5rem
+}
+
+.carousel-card {
+    position: absolute;
+    width: 320px;
+    height: 450px;
+    background: #20e72e;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: none;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.card-image {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 1rem;
+}
+
+.card-text {
+    padding: 10px;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: #0a0223;
+    font-family: "sono", sans-serif;
+}
+
+.carousel-sub-heading {
+    position: relative;
+    font-family: "sono", sans-serif;
+}
+
+.carousel-card:hover .card-text {
+    opacity: 1; /* Fade in text when hovering over a card */
+}

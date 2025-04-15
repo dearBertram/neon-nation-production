@@ -6,7 +6,7 @@ import {
     showFirstTwelveLines, showFirstTwentyOneLines,
 } from "./s001Utils.ts";
 
-//import VerseSelectorAnimatedLines from '../../../../components/verseSelectorAnimatedLines/VerseSelectorAnimatedLines.tsx';
+import VerseSelectorAnimatedLines from '../../../../components/verseSelectorAnimatedLines/VerseSelectorAnimatedLines.tsx';
 import AnimatedEllipses from '../../../../components/animatedEllipses/AnimatedEllipses.tsx';
 import VanillaPoem from '../../../../components/vanillaPoem/VanillaPoem.tsx';
 import GridSelector from '../../../../components/gridSelector/GridSelector.tsx';
@@ -36,7 +36,7 @@ const Section001: React.FC<SectionProps> = ({ poem }) => {
             {poem.uid === "poem-001-002" && <VanillaPoem poem={poem} />}
             {poem.uid === "poem-001-003" && <GridSelector poem={poem} />}
             {poem.uid === "poem-001-004" && <VanillaPoem poem={poem} />}
-            {poem.uid === "poem-001-005" && <VanillaPoem poem={poem} />}
+            {poem.uid === "poem-001-005" && <VerseSelectorAnimatedLines poem={poem} />}
             {poem.uid === "poem-001-006" && <VanillaPoem poem={poem} />}
             {poem.uid === "poem-001-007" && (<><VanillaPoem poem={poem} /><AnimatedEllipses poemUid={poem.uid} /></>)}
             {poem.uid === "poem-001-008" && <VanillaPoem poem={poem} />}

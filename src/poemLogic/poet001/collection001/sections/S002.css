@@ -2,7 +2,7 @@
 
 /*POEM-002-001 */
 .poem-002-001 .poem-lines-group {
-    padding: 0 1rem 7rem 1rem;
+    padding: 0 1rem 10rem 1rem;
 }
 
 .poem-002-001 .poem-line {
@@ -63,6 +63,10 @@
 }
 
 /*POEM-002-002 */
+.poem-002-002 .poem-lines-group {
+    padding-bottom: 10rem;
+}
+
 .poem-002-002 .poem-line {
     font-size: 1.6rem;
     font-weight: 350;
@@ -126,8 +130,12 @@
 }
 
 /*POEM-002-005 */
+.poem-002-005 .poem-lines-group {
+    padding-bottom: 10rem;
+}
+
 .poem-002-005 .poem-line {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: right;
     font-weight: 300;
     line-height: 2.5;
@@ -150,7 +158,7 @@
 
 /*POEM-002-007 */
 .poem-002-007 .poem-lines-group {
-    padding: 0 1rem 7rem 1rem;
+    padding: 0 1rem 10rem 1rem;
 }
 
 .poem-002-007 .poem-line {

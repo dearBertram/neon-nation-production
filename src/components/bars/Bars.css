@@ -1,3 +1,9 @@
+.bar-scroll-wrapper {
+    height: 100svh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .bar-holder {
     padding-top: 3rem;
     padding-bottom: 6rem;

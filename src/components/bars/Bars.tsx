@@ -37,22 +37,24 @@ const Bars: React.FC<BarsProps> = ({ poem }) => {
         };
 
         return (
-            <div className="bar-holder">
-                    {barWidths.map((width, index) => (
-                        <div
-                            key={index}
-                            className={`bar ${activeBar === index ? "active" : ""}`}
-                            style={{ width: `${width}px` }}
-                            onClick={() => handleBarClick(index)}
-                        >
-                                {activeBar === index && (
-                                    <div className="poem-lines">
-                                            <p>{poem.lines[index * 2] || ""}</p>
-                                            <p>{poem.lines[index * 2 + 1] || ""}</p>
-                                    </div>
-                                )}
-                        </div>
-                    ))}
+            <div className="bar-scroll-wrapper">
+                    <div className="bar-holder">
+                            {barWidths.map((width, index) => (
+                                <div
+                                    key={index}
+                                    className={`bar ${activeBar === index ? "active" : ""}`}
+                                    style={{ width: `${width}px` }}
+                                    onClick={() => handleBarClick(index)}
+                                >
+                                        {activeBar === index && (
+                                            <div className="poem-lines">
+                                                    <p>{poem.lines[index * 2] || ""}</p>
+                                                    <p>{poem.lines[index * 2 + 1] || ""}</p>
+                                            </div>
+                                        )}
+                                </div>
+                            ))}
+                    </div>
             </div>
         );
 };
