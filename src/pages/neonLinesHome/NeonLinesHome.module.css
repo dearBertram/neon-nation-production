@@ -71,13 +71,22 @@ html body {
     color: rgba(242, 0, 137, 0.9);
 }
 
+.nameContainer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .linesName {
     color: #0a0223;
     font-family: "sono", sans-serif;
     font-weight: 200;
     font-size: 3em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+}
+
+.corporateHook {
+    color: rgba(242, 0, 137);
+    text-align: center;
+    font-size: 1rem;
 }
 
 .strapLine {

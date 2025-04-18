@@ -8,6 +8,7 @@ import LoadingSpinner from "../../components/loadingSpinner/LoadingSpinner.tsx";
 import DataLoadingError from "../supportPages/DataLoadingError.tsx";
 import MobileOnly from "../supportPages/mobileOnly/MobileOnly.tsx";
 import TopNavWithHome from "../../components/topNavWithHome/TopNavWithHome.tsx";
+import StripePaymentButton from "../../components/stripePaymentButton/StripePaymentButton.tsx";
 
 import neonBackground from '/neonBackgroundLandscape.svg'
 import styles from './Collections.module.css'
@@ -68,7 +69,7 @@ function Collections() {
 
     return (
         <div className={styles.container}>
-            <TopNavWithHome/>
+            <TopNavWithHome />
             <Link to="/sections">
                 <img src={neonBackground} alt="Neon Nation landscape" className={styles.overlay}/>
                 <div className={styles.collectionDetails}>
@@ -77,6 +78,9 @@ function Collections() {
                 </div>
                 <p className={styles.imprintDetail}>Please persist...</p>
             </Link>
+            <div className={styles.paymentButton}>
+                <StripePaymentButton />
+            </div>
         </div>
     );
 }

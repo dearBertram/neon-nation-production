@@ -40,7 +40,10 @@ function NeonLinesHome() {
                         <Link to="/">
                             <img src={neonLogo} alt="Neon Nation home" className={styles.logo}/>
                         </Link>
-                        <h1 className={styles.linesName}>NEON<span className={styles.neonLine}>_</span>LINES</h1>
+                        <div className={styles.nameContainer}>
+                            <h1 className={styles.linesName}>NEON<span className={styles.neonLine}>_</span>LINES</h1>
+                            <p className={styles.corporateHook}>from Neon Nation</p>
+                        </div>
                         <p className={styles.strapLine}>A MOBILE HOME FOR POETRY</p>
                         <Link to="/poets">
                             <h1 className={styles.rotatedEllipse}>...</h1>
