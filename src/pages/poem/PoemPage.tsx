@@ -2,7 +2,7 @@ import React, { lazy } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import { fetchPoetDocument } from '../../dataConnections/poetDataLoader.ts';
 import { useEffect, useState } from 'react';
-import { Poem, Section } from '../../models/poets.ts';
+import { Poem, Section, Collection } from '../../models/poets.ts';
 import useWindowResizeThreshold from '../../hooks/useWindowResizeThreshold.ts';
 
 import LoadingSpinner from '../../components/loadingSpinner/LoadingSpinner.tsx';
@@ -28,10 +28,11 @@ const sectionComponents: Record<string, React.FC<{ poem: Poem }>> = {
 const MAX_MOBILE_WIDTH = 768;
 
 function PoemPage() {
-    const { uid } = useParams<{ uid: string }>();
+    const { uid } = useParams<{ uid: string; slug?: string }>();
     const location = useLocation();
     const [sections, setSections] = useState<Section[]>([]);
     const [poem, setPoem] = useState<Poem | null>(null);
+    const [collectionUid, setCollectionUid] = useState<string>('');
     const [error, setError] = useState<string | null>(null);
     const isMobile = useWindowResizeThreshold(MAX_MOBILE_WIDTH);
 
@@ -49,19 +50,29 @@ function PoemPage() {
                 if (signal.aborted) return;
 
                 if (poetDocument.poet?.collections) {
-                    const allSections = poetDocument.poet.collections.flatMap(
-                        (collection) => collection.sections
-                    );
+                    let matchedCollection: Collection | null = null;
+                    let matchedPoem: Poem | null = null;
+                    let matchedSections: Section[] = [];
 
-                    const foundPoem = allSections
-                        .flatMap((section) => section.poems)
-                        .find((poem) => poem.uid === uid);
+                    for (const collection of poetDocument.poet.collections) {
+                        for (const section of collection.sections) {
+                            const poemMatch = section.poems.find((poem) => poem.uid === uid);
+                            if (poemMatch) {
+                                matchedCollection = collection;
+                                matchedPoem = poemMatch;
+                                matchedSections = collection.sections;
+                                break;
+                            }
+                        }
+                        if (matchedPoem) break;
+                    }
 
-                    if (foundPoem) {
-                        setPoem(foundPoem);
-                        setSections(allSections);
+                    if (matchedPoem && matchedCollection) {
+                        setPoem(matchedPoem);
+                        setSections(matchedSections);
+                        setCollectionUid(matchedCollection.uid);
                     } else {
-                        setError("PoemPage not found.");
+                        setError('PoemPage not found.');
                     }
                 } else {
                     setError("No poet data available.");
@@ -101,6 +112,7 @@ function PoemPage() {
                 currentPoemUID={poem.uid}
                 sections={sections}
                 sectionUid={sectionUid}
+                collectionUid={collectionUid}
             />
         </>
     );

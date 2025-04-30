@@ -34,10 +34,49 @@
 }
 
 .poem-003-003 .poem-line {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: right;
     font-weight: 300;
     line-height: 2;
+}
+
+.poem-003-003 .poem-line:nth-child(2) {
+    background-color: #555555;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    background-image: repeating-linear-gradient(
+            to right,
+            #acaaaa 0,
+            #454343 25px,
+            #656464 25px,
+            #757171 50px,
+            #3e3b3b 50px,
+            #3c3838 75px,
+            #808080 75px,
+            #808080 100px
+    );
+}
+
+.poem-003-003 .poem-line:nth-child(7) {
+    font-size: 1.2rem;
+    color: rgb(243, 28, 233);
+    font-weight: 400;
+    background-color: white;
+}
+
+.poem-003-003 .poem-line:nth-child(8) {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: #f31ce9;
+}
+
+.poem-003-003 .poem-line::first-letter {
+    font-size:3rem;
+    color: #ff00c8;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgb(32, 231, 46);
 }
 
 /*POEM-003-004 */

@@ -14,6 +14,8 @@
             "description":"Mythical beasts included",
             "publishedYear":2025,
             "genre":"Observation",
+            "artworkPath": "/neonBackgroundLandscape.svg",
+            "artworkAltText": "Decorative image of stylised landscape",
             "sections":[
                {
                   "uid":"collection-001-section-001",
@@ -23,6 +25,7 @@
                      {
                         "uid":"poem-001-001",
                         "title":"01_ Persist",
+                        "slug": "persist",
                         "theme":"Observation",
                         "lines":[
                            "Ah........you might think this is gonna be wasteful.",
@@ -45,6 +48,7 @@
                      {
                         "uid":"poem-001-002",
                         "title":"02_ Not a clock",
+                        "slug": "not-a-clock",
                         "theme":"Over exposure",
                         "lines":[
                            "Tik toc tick toc",
@@ -91,6 +95,7 @@
                      {
                         "uid":"poem-001-003",
                         "title":"03_ FISH HEADS",
+                        "slug": "fish-heads",
                         "theme":"Placeholder Theme",
                         "lines":[
                            "Here, there, over wear;",
@@ -155,6 +160,7 @@
                      {
                         "uid":"poem-001-004",
                         "title":"04_ Portrait two",
+                        "slug": "portrait-two",
                         "theme":"A person",
                         "lines":[
                            "I don’t know you",
@@ -195,6 +201,7 @@
                      {
                         "uid":"poem-001-005",
                         "title":"05_ a low_bar",
+                        "slug": "a-low-bar",
                         "theme":"Domestic violence and coercive control",
                         "lines":[
                            "Nail bar, nail bar.",
@@ -225,11 +232,11 @@
                            "Beyond two, my nails are new.",
                            "Eyes on me, looking irate.",
                            "A desperate state unwinding minds.",
-                           "Man with black flash, so fake fash.", 
+                           "Man with black flash, so fake fash.",
                            "Sits striking against his white face.",
                            "Exuding confidence, outsized self sense.",
                            "That no one is well placed to deny.",
-                           "A changing sense, spider crawling.", 
+                           "A changing sense, spider crawling.",
                            "A face ready for brawling, sit recoiling.",
                            "Changed in blinking of eyes, cries.",
                            "A pint of indifference, nested violence.",
@@ -294,6 +301,7 @@
                      {
                         "uid":"poem-001-006",
                         "title":"06_ Self importing",
+                        "slug": "self-importing",
                         "theme":"Not going out",
                         "lines":[
                            "What did he say?…",
@@ -353,6 +361,7 @@
                      {
                         "uid":"poem-001-007",
                         "title":"07_ Connected",
+                        "slug": "connected",
                         "theme":"Placeholder Theme",
                         "lines":[
                            "I’m connected",
@@ -404,6 +413,7 @@
                      {
                         "uid":"poem-001-008",
                         "title":"08_ On the market",
+                        "slug": "on-the-market",
                         "theme":"Searching",
                         "lines":[
                            "It’s a transactional thing",
@@ -480,6 +490,7 @@
                      {
                         "uid":"poem-002-001",
                         "title":"01_ Vapour",
+                        "slug": "vapour",
                         "theme":"Morning",
                         "lines":[
                            "To wake again,",
@@ -531,6 +542,7 @@
                      {
                         "uid":"poem-002-002",
                         "title":"02_ Portrait four",
+                        "slug": "portrait-four",
                         "theme":"More people",
                         "lines":[
                            "Made of enamour",
@@ -570,6 +582,7 @@
                      {
                         "uid":"poem-002-003",
                         "title":"03_ Working Class Biscuits",
+                        "slug": "working-class-biscuits",
                         "theme":"Society",
                         "lines":[
                            "Patient’s sick",
@@ -615,6 +628,7 @@
                      {
                         "uid":"poem-002-004",
                         "title":"04_ Constrained",
+                        "slug": "constrained",
                         "theme":"Social grace",
                         "lines":[
                            "Constrained by the wail, of a waking mind",
@@ -660,6 +674,7 @@
                      {
                         "uid":"poem-002-005",
                         "title":"05_ Portrait six",
+                        "slug": "portrait-six",
                         "theme":"Transit",
                         "lines":[
                            "Engagement ring",
@@ -724,6 +739,7 @@
                      {
                         "uid":"poem-002-006",
                         "title":"06_ Here and There",
+                        "slug": "here-and-there",
                         "theme":"Careful what you wish for",
                         "lines":[
                            "There it was, the words on spot.",
@@ -749,6 +765,7 @@
                      {
                         "uid":"poem-002-007",
                         "title":"07_ Offline troll",
+                        "slug": "offline-troll",
                         "theme":"Quiet disdain",
                         "lines":[
                            "I’m basically an offline troll",
@@ -794,6 +811,7 @@
                      {
                         "uid":"poem-002-008",
                         "title":"08_ Neon",
+                        "slug": "neon",
                         "theme":"Self belief",
                         "lines":[
                            "Listen to all your thoughts",
@@ -830,6 +848,7 @@
                      {
                         "uid":"poem-003-001",
                         "title":"01_ Another History",
+                        "slug": "another-history",
                         "theme":"Empire",
                         "lines":[
                            "On the corner of Fisher Street,",
@@ -859,6 +878,7 @@
                      {
                         "uid":"poem-003-002",
                         "title":"02_ Hustle",
+                        "slug": "hustle",
                         "theme":"Change",
                         "lines":[
                            "Everybody’s on the hustle",
@@ -881,6 +901,7 @@
                      {
                         "uid":"poem-003-003",
                         "title":"03_ Portrait thirteen",
+                        "slug": "portrait-thirteen",
                         "theme":"Ultimate sacrifice",
                         "lines":[
                            "I want a go, I’ve got nothing left;",
@@ -906,6 +927,7 @@
                      {
                         "uid":"poem-003-004",
                         "title":"04_ A Street Corner named Desire",
+                        "slug": "a-street-corner-named-desire",
                         "theme":"Leisure time",
                         "lines":[
                            "Neck, brace for a jolt.",
@@ -953,6 +975,7 @@
                      {
                         "uid":"poem-003-005",
                         "title":"05_ Always broken",
+                        "slug": "always-broken",
                         "theme":"Empire",
                         "lines":[
                            "They're back, with answers to all of this, all of that.",
@@ -998,6 +1021,7 @@
                      {
                         "uid":"poem-003-006",
                         "title":"06_ Personal Assistance",
+                        "slug": "personal-assistance",
                         "theme":"Euthanasia",
                         "lines":[
                            "What’s your problem?",
@@ -1041,6 +1065,7 @@
                      {
                         "uid":"poem-003-007",
                         "title":"07_ Promenade",
+                        "slug": "promenade",
                         "theme":"Change",
                         "lines":[
                            "A promenade by any name, the frozen wind won’t change the range Of surprises on offer, moments shelved Waiting ………… hoping for footfall again. Chewing gum scattered, stuck to the floor White marks of thoughtless spitting What was the impact on Margaret? Sitting, there for years through all the generations Watching as love lost, left Right glances at a young woman's chest Hands held, sentiment expressed Through fried food wrapped in paper then paper No news is good news Imagine the joy of moments expressed down the promenades Cracked concrete stress The sign says come in we’re open, with a small unwritten caveat, if you are It’s hard to be welcome with a stench of fat, cross the door matt, dirty But the coffee made sure, for sure, has been warming for as long as Margaret’s thoughts Open for what, for who It’s true, she feels she hasn't a clue  What she once knew has wandered long to promenade new You? I’ve sat, watched as shops fell flat, arcades flashed then crashed Kebab wrappers flew past frozen puddles all the while looking out to others Across groyne slipped down revetments held back by seaside tat The seaview you have to give back as the plaster needs to be repaired from all its cracks The window draught A final thought at the bench as bought and Margaret slips to another walk I’d be laughing myself, except it’s not funny."
@@ -1057,6 +1082,7 @@
                      {
                         "uid":"poem-003-008",
                         "title":"08_ Space",
+                        "slug": "space",
                         "theme":"Placeholder Theme",
                         "lines":[
                            "This land has space for everyone",
@@ -1100,6 +1126,7 @@
                      {
                         "uid":"poem-004-001",
                         "title":"01_ Familiar anxiety",
+                        "slug": "familiar-anxiety",
                         "theme":"Domesticity",
                         "lines":[
                            "The cars stuck, again!",
@@ -1134,6 +1161,7 @@
                      {
                         "uid":"poem-004-002",
                         "title":"02_ Excuse me",
+                        "slug": "excuse-me",
                         "theme":"Desperation",
                         "lines":[
                            "“",
@@ -1171,6 +1199,7 @@
                      {
                         "uid":"poem-004-003",
                         "title":"03_ Tragedy",
+                        "slug": "tragedy",
                         "theme":"Conflict",
                         "lines":[
                            "It’s always been",
@@ -1202,6 +1231,7 @@
                      {
                         "uid":"poem-004-004",
                         "title":"04_ Portrait five",
+                        "slug": "portrait-five",
                         "theme":"Overwhelmed",
                         "lines":[
                            "Leaving the house was just like the other day",
@@ -1237,6 +1267,7 @@
                      {
                         "uid":"poem-004-005",
                         "title":"05_ Adventurers ",
+                        "slug": "adventures",
                         "theme":"Repression",
                         "lines":[
                            "The toilets blocked",
@@ -1260,6 +1291,7 @@
                      {
                         "uid":"poem-004-006",
                         "title":"06_ Portrait twenty seven",
+                        "slug": "portrait-twenty-seven",
                         "theme":"Work",
                         "lines":[
                            "He knows his space: his nook",
@@ -1299,6 +1331,7 @@
                      {
                         "uid":"poem-004-007",
                         "title":"07_ [THE] Beast",
+                        "slug": "the-beast",
                         "theme":"Gentrification",
                         "lines":[
                            "There’s a prowler, a day (night) stalker",
@@ -1348,6 +1381,7 @@
                      {
                         "uid":"poem-004-008",
                         "title":"08_ Dear Bertrand",
+                        "slug": "dear-bertrand",
                         "theme":"Society",
                         "lines":[
                            "There’s an agitation",
@@ -1394,7 +1428,7 @@
             "uid":"collection-002",
             "name":"Paddington to Peckham",
             "subHeading":"1 36 Peckham",
-            "description":"Check Your Belonging",
+            "description":"Check Your Belongings",
             "publishedYear":2025,
             "genre":"Observation",
             "artworkPath": "/PaddingtonToPeckham.svg",

@@ -104,7 +104,7 @@ const Sections: React.FC = () => {
                         {poems.map((poem) => (
                             <li key={poem.uid}>
                                 <Link
-                                    to={`/poem/${poem.uid}`}
+                                    to={`/poem/${poem.uid}/${poem.slug}`}
                                     state={{ sectionUid: selectedSectionUid }}
                                 >
                                     <div className={styles.poemName}>

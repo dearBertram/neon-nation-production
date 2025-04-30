@@ -6,6 +6,7 @@ export interface PoemMetadata {
 export interface Poem {
     uid: string;
     title: string;
+    slug?: string;
     theme: string;
     lines: string[];
     poemMetadata: PoemMetadata;

@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from 'react-router-dom';
 
 import { Section } from '../../models/poets.ts';
 import PaymentModal from '../paymentModal/PaymentModal.tsx';
@@ -14,6 +13,7 @@ interface PoemNavigationProps {
     currentPoemUID: string;
     sections: Section[];
     sectionUid: string;
+    collectionUid: string;
 }
 
 const BottomNav: React.FC<PoemNavigationProps> = ({ currentPoemUID, sections, sectionUid }) => {
@@ -21,7 +21,7 @@ const BottomNav: React.FC<PoemNavigationProps> = ({ currentPoemUID, sections, se
     const [prevPoemUID, setPrevPoemUID] = useState<string | null>(null);
     const [nextPoemUID, setNextPoemUID] = useState<string | null>(null);
     const [showPaymentModal, setShowPaymentModal] = useState(false);
-    
+
     const getAdjacentPoemUID = useCallback((step: number): string | null => {
         if (!sections || !currentPoemUID) return null;
 
@@ -43,15 +43,22 @@ const BottomNav: React.FC<PoemNavigationProps> = ({ currentPoemUID, sections, se
         }
 
         const currentSection = sections[currentSectionIndex];
+        const targetPoemIndex = poemIndex + step;
 
-        if (poemIndex + step > 0 && poemIndex + step <= currentSection.poems.length) {
-            return `poem-${sectionId.toString().padStart(3, "0")}-${(poemIndex + step).toString().padStart(3, "0")}`;
+        if (targetPoemIndex > 0 && targetPoemIndex <= currentSection.poems.length) {
+            return `poem-${sectionId.toString().padStart(3, '0')}-${targetPoemIndex
+                .toString()
+                .padStart(3, '0')}`;
         }
 
-        if (step === 1 && poemIndex === currentSection.poems.length) {
-            const nextSection = sections[currentSectionIndex + 1];
-            if (nextSection) {
-                return `poem-${(sectionId + 1).toString().padStart(3, "0")}-001`;
+        if (step === 1 && targetPoemIndex > currentSection.poems.length) {
+            const isLastSection = currentSectionIndex === sections.length - 1;
+            if (!isLastSection) {
+                const nextSection = sections[currentSectionIndex + 1];
+                const nextSectionId = parseInt(nextSection.uid.match(/section-(\d+)/)?.[1] || '', 10);
+                return `poem-${nextSectionId.toString().padStart(3, '0')}-001`;
+            } else {
+                return null;
             }
         }
 
@@ -68,17 +75,18 @@ const BottomNav: React.FC<PoemNavigationProps> = ({ currentPoemUID, sections, se
     useEffect(() => {
         if (!currentPoemUID || sections.length === 0) return;
 
-        setTimeout (() => {
+        setTimeout(() => {
             setPrevPoemUID(getAdjacentPoemUID(-1));
             setNextPoemUID(getAdjacentPoemUID(1));
         }, 100);
-    }, [currentPoemUID, sectionUid, sections.length, getAdjacentPoemUID, nextPoemUID, prevPoemUID]);
+    }, [currentPoemUID, sectionUid, sections.length, getAdjacentPoemUID]);
 
     const navigateToPoem = (poemUID: string | null) => {
-        const isLastPoemOfCollection =
-            currentPoemUID === "poem-004-008" && poemUID === null;
 
-        if (isLastPoemOfCollection) {
+        const atEndOfCollection = currentPoemUID && poemUID === null;
+
+        if (atEndOfCollection) {
+            //console.log(`📌 End of collection '${collectionUid}' reached.`);
             setShowPaymentModal(true);
             return;
         }
@@ -93,31 +101,31 @@ const BottomNav: React.FC<PoemNavigationProps> = ({ currentPoemUID, sections, se
     };
 
     return (
-      <div className={styles.bottomNavBar} >
-          <button className={styles.navButtons}
-            onClick={() => navigateToPoem(prevPoemUID)}
-          >
-              <img src={previous} alt="Previous Poem" className={styles.navIconPrevious} />
-          </button>
-          <Link to="/sections"
-          state={{ sectionUid }}>
-              <button className={`${styles.navButtons} ${styles.homeButton}`}
-                      onClick={() => navigateToSections(sectionUid)}
-              >
-              </button>
-          </Link>
-          <button className={styles.navButtons}
-            onClick={() => navigateToPoem(nextPoemUID)}
-          >
-              <img src={next} alt="Previous Poem" className={styles.navIconNext} />
-          </button>
-          {showPaymentModal && (
-              <PaymentModal
-                  isOpen={showPaymentModal}
-                  onClose={() => setShowPaymentModal(false)}
-              />
-          )}
-      </div>
+        <div className={styles.bottomNavBar} >
+            <button className={styles.navButtons}
+                    onClick={() => navigateToPoem(prevPoemUID)}
+            >
+                <img src={previous} alt="Previous Poem" className={styles.navIconPrevious} />
+            </button>
+            <Link to="/sections"
+                  state={{ sectionUid }}>
+                <button className={`${styles.navButtons} ${styles.homeButton}`}
+                        onClick={() => navigateToSections(sectionUid)}
+                >
+                </button>
+            </Link>
+            <button className={styles.navButtons}
+                    onClick={() => navigateToPoem(nextPoemUID)}
+            >
+                <img src={next} alt="Previous Poem" className={styles.navIconNext} />
+            </button>
+            {showPaymentModal && (
+                <PaymentModal
+                    isOpen={showPaymentModal}
+                    onClose={() => setShowPaymentModal(false)}
+                />
+            )}
+        </div>
     );
 };
 

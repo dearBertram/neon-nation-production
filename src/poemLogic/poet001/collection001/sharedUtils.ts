@@ -54,7 +54,7 @@ export function loadLinesFlashEffect(poemUid: string) {
             case "poem-003-001":
                 return "#fb5607";
             default:
-                return "#20e72e"; // Default
+                return "#20e72e";
         }
     };
 
