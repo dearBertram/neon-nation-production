@@ -8,6 +8,7 @@ import LoadingSpinner from '../../components/loadingSpinner/LoadingSpinner.tsx';
 import DataLoadingError from '../supportPages/DataLoadingError.tsx';
 import MobileOnly from '../supportPages/mobileOnly/MobileOnly.tsx';
 import TopNavWithHome from '../../components/topNavWithHome/TopNavWithHome.tsx';
+import SocialLinks from "../../components/socialsLink/SocialsLink.tsx";
 
 import glasses from '/glasses.svg'
 
@@ -80,6 +81,7 @@ function Poets () {
                 <h1 className={styles.rotatedEllipse}>...</h1>
             </Link>
             <p className={styles.imprintDetail}>A relative epic — 0.8rem life</p>
+            <SocialLinks />
         </div>
     );
 }

@@ -10,9 +10,10 @@ import MobileOnly from "../supportPages/mobileOnly/MobileOnly.tsx";
 import TopNavWithHome from "../../components/topNavWithHome/TopNavWithHome.tsx";
 import StripePaymentButton from "../../components/stripePaymentButton/StripePaymentButton.tsx";
 import CountdownTimer from "../../components/countdownTimer/CountdownTimer.tsx";
+import BusInformationDisplay from "../../components/busInformationDisplay/BusInformationDisplay.tsx";
+import SocialLinks from "../../components/socialsLink/SocialsLink.tsx";
 
 import './Collections.css'
-import BusInformationDisplay from "../../components/busInformationDisplay/BusInformationDisplay.tsx";
 
 const MAX_MOBILE_WIDTH = 768;
 
@@ -97,6 +98,7 @@ function Collections() {
                         <div className='payment-button'>
                             {collection.uid === 'collection-001' && <StripePaymentButton />}
                         </div>
+                        <SocialLinks />
                     </div>
                 ))}
             </div>

@@ -1,0 +1,43 @@
+.socialLinks {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding-top: 1rem;
+}
+
+.socialLinks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialLinks li {
+    display: flex;
+}
+
+.socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px; /* recommended tap target */
+    height: 44px;
+}
+
+.socialLinks a img {
+    width: 44px;
+    height: 44px;
+    pointer-events: none;
+    user-select: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socialLinks a:hover img {
+    transform: scale(1.1);
+}
